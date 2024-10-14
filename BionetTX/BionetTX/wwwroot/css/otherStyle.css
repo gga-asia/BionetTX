@@ -1,0 +1,83 @@
+﻿@charset "UTF-8";
+/*index*/
+body {
+  background-color: #0C3849;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h4 {
+  margin: 5px 0px;
+  color: #EC6D34;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/*footer*/
+section.headerOnlyFooter {
+  background-image: url(../assets/images/contactbg.svg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 0px 0px;
+}
+
+/*Kenny原本的設定改寫*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+#HH {
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  #HH {
+    font-size: 36px;
+  }
+}
+@media (min-width: 769px) {
+  #HH {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  #meetings {
+    padding-top: 200px;
+  }
+}
+@media (min-width: 769px) {
+  #meetings {
+    padding-top: 50px;
+  }
+}
+
+#bionetlogo {
+  width: 220px;
+}
+@media (max-width: 768px) {
+  #bionetlogo {
+    width: 150px;
+  }
+}
+
+#ggalogo {
+  width: 150px;
+}
+
+/*Kenny原本的設定改寫 end*/
+/*Contact*/
+.contactSpace {
+  margin-top: 6.5rem;
+}
+
+.cus-contact > .container {
+  height: 100vh;
+}
+
+/*#top {
+    background-image: url("../assets/images/NewsBanner.svg");
+}*/

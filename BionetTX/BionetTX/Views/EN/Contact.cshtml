@@ -1,0 +1,106 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_LayoutHeaderOnlyEN.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Contact";
+    ViewData["MetaTitle"] = "訊聯細胞智藥-再生醫療製劑、細胞製劑、次世代外泌體Exosome、Exosome Foundry外泌體全球研發代工(訊聯生技集團)";
+    ViewData["MetaDescription"] = "訊聯細胞智藥股份有限公司為訊聯集團旗下訊聯生技、訊聯基因數位2家公司，整合3大核心能力「再生醫學/細胞治療」、「精準健康/基因醫學」、「數位科技/智慧研發」的新引擎，主攻再生醫療製劑、細胞製劑、智慧研發、智慧健康、外泌體Exosome、基因及細胞治療等先進療法，滿足全球更廣大的健康需求。目前7款細胞治療製劑開發中：急性呼吸窘迫症候群ARDS、肺部纖維化、慢性腎衰竭、急性傷口修復、慢性傷口癒合、退化性關節炎、乾眼症";
+    ViewData["MetaKeywords"] = "訊聯生技集團, 訊聯,細胞智藥,細胞製劑,再生醫療製劑,外泌體,Exosome,急性呼吸窘迫症候群,ARDS,肺部纖維化,慢性腎衰竭,急性傷口修復,慢性傷口癒合,糖尿病足潰瘍,退化性關節炎,乾眼症,CDMO";
+    ViewData["MetaOgTitle"] = "訊聯細胞智藥";
+    ViewData["MetaOgDescription"] = "訊聯細胞智藥";
+}
+
+<section class="cus-contact contact-us contactSpace" id="contact">
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-lg-8 align-self-center">
+                <div class="col-lg-12">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2>Contact Us <span style="font-size:14px;"> * required</span></h2>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="Name...*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="Tel" type="text" id="Tel" placeholder="Phone...*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="email" type="text" id="email" pattern="[^ @@]*@@[^ @@]*" placeholder="EMAIL...*" required="">
+                                </fieldset>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <input name="subject" type="text" id="subject" placeholder="Company Name..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <fieldset>
+                                    <span style="font-size:16px;color:#666666;padding: 6px 6px;">Issue Category</span>
+                                    <select name="questiontype" id="questiontype" style="font-size:14px;color:#666666"><option>Business Cooperation</option><option>Other</option></select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="message" type="text" class="form-control" id="message" placeholder="Inquiry Contents..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+
+                                    <button type="submit" id="submit1" class="button">Submit</button>
+                                    <br>
+                                    <span style="font-size:13px;">
+                                        I have read the full texts and agree to comply with the privacy policesas prescribed by
+                                        <a href="@Url.Action("Disclaimer", "EN")" target="_blank"><font color="#EC6D34">Personal Data Protection Act</font></a>.
+                                    </span>
+
+                                </fieldset>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4" id="rinfo">
+                <div class="right-info">
+                    <ul>
+                        <li>
+                            <h6>Contact</h6>
+                            <span><font color="#FFF">0800-800-018</font></span>
+                        </li>
+                        <li>
+                            <h6>Email</h6>
+                            <span><a href="mailto:service@bionettx.com"><span style="color:#FFF;">service@bionettx.com</span></a></span>
+                        </li>
+                        <li>
+                            <h6>Location</h6>
+                            <span>No.28, Ln.36, Xinhu 1st Rd., Neihu Dist., Taipei City 114065, Taiwan</span>
+                        </li>
+                        <li>
+                            <h6>Website</h6>
+                            <span>www.bionettx.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>BIONET Therapeutics Corp. @@2022 All Rights Reserved.</p>
+    </div>
+</section>

@@ -1,0 +1,98 @@
+﻿    <!-- ***** Footer  ***** -->
+<section class="contact-us" id="contact">
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-lg-8 align-self-center">
+                <div class="col-lg-12">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2>聯絡我們 <span style="font-size:14px;"> * 為必填</span></h2>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="姓名...*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="Tel" type="text" id="Tel" placeholder="連絡電話...*" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="email" type="text" id="email" pattern="[^ @@]*@@[^ @@]*" placeholder="EMAIL...*" required="">
+                                </fieldset>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <input name="subject" type="text" id="subject" placeholder="公司名稱..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <span style="font-size:14px;color:#666666;padding: 4px 4px;">問題類別</span>
+                                    <select name="questiontype" id="questiontype" style="font-size:14px;color:#666666;"><option>CRDMO委託製造</option><option>原料合作/採購</option><option>商品合作/採購</option><option>資訊詢問</option><option>其他</option></select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4">
+                                <fieldset>
+                                    <span style="font-size:14px;color:#666666;padding: 4px 4px;">資訊來源</span>
+                                    <select name="infosource" id="infosource" style="font-size:14px;color:#666666;"><option>官網平台</option><option>網路廣告</option><option>新聞</option><option>臉書</option><option>親友推薦</option><option>院所/DM</option><option>其他</option></select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="message" type="text" class="form-control" id="message" placeholder="細節說明..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+
+                                    <button type="submit" id="submit1" class="button">送出</button> &nbsp;&nbsp;
+                                    <span style="font-size:13px;">為遵守個人資料保護法規定, 在您提供個人資料前, 請先閱讀
+                                        <a href="@Url.Action("Disclaimer", "Home")" target="_blank"><font color="#EC6D34">個資條款</font></a>
+                                    </span>
+
+                                </fieldset>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4" id="rinfo">
+                <div class="right-info">
+                    <ul class="row p-0">
+                        <li class="col-12">
+                            <h6>服務專線</h6>
+                            <span><font color="#FFF">0800-800-018</font></span>
+                        </li>
+                        <li class="col-12">
+                            <h6>客服信箱</h6>
+                            <span><a href="mailto:service@bionettx.com"><span style="color:#FFF;">service@bionettx.com</span></a></span>
+                        </li>
+                        <li class="col-12">
+                            <h6>地址</h6>
+                            <span>台北市內湖區新湖一路36巷28號</span>
+                        </li>
+                        <li class="col-12">
+                            <h6>網站</h6>
+                            <span>www.bionettx.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>BIONET Therapeutics Corp. @@2022 All Rights Reserved.</p>
+        </div>
+    </div>
+</section>
+<!-- ***** Footer end ***** -->
+
+   

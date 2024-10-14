@@ -1,0 +1,159 @@
+﻿@* Default *@
+@* <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/assets/js/isotope.min.js"></script>
+<script src="~/assets/js/owl-carousel.js"></script>
+<script src="~/assets/js/lightbox.js"></script>
+<script src="~/assets/js/tabs.js"></script>
+<script src="~/assets/js/video.js"></script>
+<script src="~/assets/js/slick-slider.js"></script>
+<script src="~/assets/js/custom.js"></script>
+
+@* <script>
+    //according to loftblog tut
+    $('.nav li:first').addClass('active');
+
+    // 部分滾動
+    var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ''),
+            reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+            reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+            $('body, html').animate({
+                scrollTop: reqSectionPos
+            },
+                800);
+        } else {
+            $('body, html').scrollTop(reqSectionPos);
+        }
+
+    };
+
+
+    // 檢查當前部分-滾動位置
+    var checkSection = function checkSection() {
+        $('.section').each(function () {
+            var
+                $this = $(this),
+                topEdge = $this.offset().top - 80,
+                bottomEdge = topEdge + $this.height(),
+                wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+                var
+                    currentId = $this.data('section'),
+                    reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+                reqLink.closest('li').addClass('active').
+                    siblings().removeClass('active');
+            }
+        });
+    };
+
+    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+        e.preventDefault();
+        showSection($(this).attr('href'), true);
+    });
+
+    $(window).scroll(function () {
+        checkSection();
+    });
+</script>
+
+<script>
+    // 行動端使用者介面調整
+    function mobile() {
+        try {
+            document.createEvent("TouchEvent");
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+    if (mobile()) {
+        document.getElementById("HH").style.fontSize = "36px";
+        document.getElementById("HH").style.color = "#FFFFFF";
+        document.getElementById("meetings").style.paddingTop = "200px";
+        document.getElementById("bionetlogo").style.width = "220px";
+        document.getElementById("ggalogo").style.width = "150px";
+
+
+    }
+    else {
+        document.getElementById("HH").style.fontSize = "48px";
+        document.getElementById("HH").style.color = "#FFFFFF";
+        document.getElementById("meetings").style.paddingTop = "50px";
+    }
+</script> *@
+
+@* Kenny 原本的設定改寫 *@
+<script>
+    $(document).ready(function () {
+        // 儲存選擇器
+        var $sections = $('.section');
+        var $navLinks = $('.nav li');
+
+        // 將第一個導航項設置為活動狀態
+        $navLinks.first().addClass('active');
+
+        // 部分滾動
+        // var showSection = function (section, isAnimate) {
+        //     var direction = section.replace(/#/, ''),
+        //         reqSection = $sections.filter('[data-section="' + direction + '"]'),
+        //         reqSectionPos = reqSection.offset().top;
+
+        //     if (isAnimate) {
+        //         $('body, html').animate({
+        //             scrollTop: reqSectionPos
+        //         }, 800);
+        //     } else {
+        //         $('body, html').scrollTop(reqSectionPos);
+        //     }
+        // };
+
+        // 檢查當前部分 - 滾動位置
+        // var checkSection = function () {
+        //     var wScroll = $(window).scrollTop();
+        //     $sections.each(function () {
+        //         var $this = $(this),
+        //             topEdge = $this.offset().top - 80,
+        //             bottomEdge = topEdge + $this.height();
+
+        //         if (topEdge < wScroll && bottomEdge > wScroll) {
+        //             var currentId = $this.data('section');
+        //             var reqLink = $('a[href*="#' + currentId + '"]');
+        //             reqLink.closest('li').addClass('active').siblings().removeClass('active');
+        //         }
+        //     });
+        // };
+
+        // 事件綁定
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+            e.preventDefault();
+            showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(checkSection);
+
+        // 當點擊篩選按鈕時
+        $('ul li').click(function () {
+            var filterValue = $(this).attr('data-filter');
+
+            // 移除其他篩選按鈕的 active 狀態，給當前的添加 active
+            $('ul li').removeClass('active');
+            $(this).addClass('active');
+
+            // 如果篩選的是 "all"，則顯示所有項目
+            if (filterValue === 'all') {
+                $('.grid .templatemo-item-col').show('2000');
+            } else {
+                // 隱藏所有項目，然後顯示符合篩選條件的項目
+                $('.grid .templatemo-item-col').hide('2000');
+                $('.grid ' + filterValue).show('2000');
+            }
+        });
+    });
+
+
+</script>

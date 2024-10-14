@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetBioNetSetting">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetBioNetSettingResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetBioNetMailSetting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBioNetMailSettingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBioNetMailSettingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_From" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_To" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_CC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_BCC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mail_BodyString" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Mail_Html_FG" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendMailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetBioNetSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBioNetSetting" />
+  </wsdl:message>
+  <wsdl:message name="GetBioNetSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBioNetSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBioNetMailSettingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBioNetMailSetting" />
+  </wsdl:message>
+  <wsdl:message name="GetBioNetMailSettingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBioNetMailSettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMail" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMailResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebMailSoap">
+    <wsdl:operation name="GetBioNetSetting">
+      <wsdl:input message="tns:GetBioNetSettingSoapIn" />
+      <wsdl:output message="tns:GetBioNetSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBioNetMailSetting">
+      <wsdl:input message="tns:GetBioNetMailSettingSoapIn" />
+      <wsdl:output message="tns:GetBioNetMailSettingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <wsdl:input message="tns:SendMailSoapIn" />
+      <wsdl:output message="tns:SendMailSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebMailSoap" type="tns:WebMailSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetBioNetSetting">
+      <soap:operation soapAction="http://tempuri.org/GetBioNetSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBioNetMailSetting">
+      <soap:operation soapAction="http://tempuri.org/GetBioNetMailSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebMailSoap12" type="tns:WebMailSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetBioNetSetting">
+      <soap12:operation soapAction="http://tempuri.org/GetBioNetSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBioNetMailSetting">
+      <soap12:operation soapAction="http://tempuri.org/GetBioNetMailSetting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap12:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebMail">
+    <wsdl:port name="WebMailSoap" binding="tns:WebMailSoap">
+      <soap:address location="http://sma:8888/KaonServiceWebMail.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebMailSoap12" binding="tns:WebMailSoap12">
+      <soap12:address location="http://sma:8888/KaonServiceWebMail.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

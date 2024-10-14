@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_10" data-name="圖層 10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 2.43px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-5 {
+        stroke: #09537b;
+      }
+
+      .cls-3 {
+        stroke-width: 1.77px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #ec6d34;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 2.02px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="30.13" cy="30" r="30"/>
+  <g>
+    <ellipse class="cls-4" cx="31.11" cy="30.74" rx="19.55" ry="6.75"/>
+    <ellipse class="cls-5" cx="31.11" cy="30.99" rx="9.75" ry="19.29"/>
+    <ellipse class="cls-5" cx="31.11" cy="30.74" rx="19.55" ry="6.75"/>
+    <line class="cls-2" x1="31.15" y1="11.33" x2="31.15" y2="50.29"/>
+    <circle class="cls-3" cx="31.11" cy="30.78" r="19.83"/>
+  </g>
+</svg>

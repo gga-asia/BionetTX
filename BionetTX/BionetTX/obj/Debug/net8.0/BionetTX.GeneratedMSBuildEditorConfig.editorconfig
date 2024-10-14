@@ -1,0 +1,259 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BionetTX
+build_property.RootNamespace = BionetTX
+build_property.ProjectDir = D:\GitHub\BionetTXWeb\BionetTX\BionetTX\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\GitHub\BionetTXWeb\BionetTX\BionetTX
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/CellTherapy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cQ2VsbFRoZXJhcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/CorpIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cQ29ycEludHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/Disclaimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cRGlzY2xhaW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/Exosome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cRXhvc29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3QxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList15.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3QxNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3QyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3QzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3Q0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3Q1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3Q2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/NewsList7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cTmV3c0xpc3Q3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/EN/TxIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRU5cVHhJbnRyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/CellTherapy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDZWxsVGhlcmFweS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/CorpIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3JwSW50cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/Disclaimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNjbGFpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/Exosome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeG9zb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList15.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDE1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/NewsList7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Home/TxIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUeEludHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_cellTherapy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jZWxsVGhlcmFweS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-v46wyckc3s
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_cellTherapyEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jZWxsVGhlcmFweUVOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-a26494hoew
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_corpIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jb3JwSW50cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-46rfa1o30y
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_corpIntroEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jb3JwSW50cm9FTi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-e3nfy8ts5k
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_exosome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9leG9zb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-uqw7wz31we
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_exosomeEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9leG9zb21lRU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ocvjsdqf6g
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-77rf07zicx
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_FooterContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-2hhf9fp1v2
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_FooterContactEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJDb250YWN0RU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vjdm2j3eyr
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_FooterEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJFTi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-6goj05dfet
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lk15yoemv7
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_HeaderEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJFTi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-c9bkeh4yjw
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-034js8xcng
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_LayoutEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFTi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-px628jtb15
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_LayoutHeaderOnly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIZWFkZXJPbmx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-5kwofrwqo6
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_LayoutHeaderOnlyEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIZWFkZXJPbmx5RU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wgk386ulqz
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_LayoutNo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-7cb6jherk3
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_newsInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uZXdzSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wrnd5mui5o
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_newsInfoEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uZXdzSW5mb0VOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-4g4tytrrw2
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_newsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uZXdzTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-3sb20axh7x
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_newsLayoutEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uZXdzTGF5b3V0RU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-00ef37cpd5
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_txIntro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF90eEludHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-r7w6q81p6j
+
+[D:/GitHub/BionetTXWeb/BionetTX/BionetTX/Views/Shared/_txIntroEN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF90eEludHJvRU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-27vb15xwrb

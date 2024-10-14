@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 230">
+  <defs>
+    <style>
+      .d, .e {
+        fill: #fff;
+      }
+
+      .e {
+        opacity: .43;
+      }
+
+      .f {
+        fill: #09537b;
+        opacity: .8;
+      }
+    </style>
+  </defs>
+  <rect class="f" width="345" height="230" rx="30.13" ry="30.13"/>
+  <g>
+    <circle class="e" cx="159.2" cy="211.61" r="3.91"/>
+    <circle class="e" cx="172.5" cy="211.61" r="3.91"/>
+    <circle class="d" cx="185.8" cy="211.61" r="3.91"/>
+  </g>
+</svg>

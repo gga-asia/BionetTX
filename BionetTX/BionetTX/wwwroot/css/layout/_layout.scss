@@ -1,0 +1,80 @@
+﻿/*index*/
+body{
+    background-color: #0C3849;
+}
+h1 {
+    color: #ffffff;
+}
+
+h4 {
+    margin: 5px 0px;
+    color: #EC6D34;
+    font-weight: 700;
+    font-size: 36px;
+}
+/*footer*/
+section.headerOnlyFooter {
+    background-image: url(../assets/images/contactbg.svg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+}
+/*Kenny原本的設定改寫*/
+// 變數定義
+$font-color: #FFFFFF;
+$mobile-font-size: 36px;
+$desktop-font-size: 48px;
+$mobile-padding: 200px;
+$desktop-padding: 50px;
+
+// 基本樣式
+body {
+    font-family: Arial, sans-serif;
+}
+
+#HH {
+    color: $font-color;
+
+    @media (max-width: 768px) {
+        font-size: $mobile-font-size;
+    }
+
+    @media (min-width: 769px) {
+        font-size: $desktop-font-size;
+    }
+}
+
+#meetings {
+    @media (max-width: 768px) {
+        padding-top: $mobile-padding;
+    }
+
+    @media (min-width: 769px) {
+        padding-top: $desktop-padding;
+    }
+}
+
+// Logo 大小設置
+#bionetlogo {
+    width: 220px;
+
+    @media (max-width: 768px) {
+        width: 150px;
+    }
+}
+
+#ggalogo {
+    width: 150px;
+}
+/*Kenny原本的設定改寫 end*/
+
+/*Contact*/
+.contactSpace{
+    margin-top: 6.5rem;
+}
+
+.cus-contact>.container{
+   height: 100vh;
+}
