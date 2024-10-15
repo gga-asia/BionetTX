@@ -12,6 +12,7 @@ h4 {
     font-weight: 700;
     font-size: 36px;
 }
+
 /*footer*/
 section.headerOnlyFooter {
     background-image: url(../assets/images/contactbg.svg);
@@ -77,4 +78,10 @@ body {
 
 .cus-contact>.container{
    height: 100vh;
+}
+
+.fixed-height {
+    min-height: 500px;
+    max-height: 700px;
+    overflow-y: auto;
 }

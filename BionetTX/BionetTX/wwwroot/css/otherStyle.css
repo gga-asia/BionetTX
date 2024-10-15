@@ -78,6 +78,73 @@ body {
   height: 100vh;
 }
 
-/*#top {
-    background-image: url("../assets/images/NewsBanner.svg");
-}*/
+.fixed-height {
+  min-height: 500px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+/*owl-carousel*/
+.owl-carousel .item {
+  opacity: 0.85;
+  height: 280px;
+}
+
+.down-content > h4 {
+  color: #EC6D34;
+  font-size: 20px;
+}
+
+.down-content > h5 {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.services .item {
+  background-color: #274759;
+}
+
+/*公司介紹*/
+.indexSpan {
+  color: #fff;
+  font-size: 14px;
+}
+
+.item.blockCompamyIntro {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  opacity: 0.9;
+  background-color: #1A6087;
+}
+
+#ggalogo {
+  /*width: 180px;*/
+  width: 11rem;
+}
+
+#bionetlogo {
+  /*width: 300px;*/
+  width: 19rem;
+}
+@media (max-width: 500px) {
+  #bionetlogo {
+    width: 15rem;
+  }
+}
+@media (max-width: 390px) {
+  #bionetlogo {
+    width: 12rem;
+  }
+}
+
+/*次世代外泌體 5 大特點, about us*/
+section.our-facts {
+  margin-top: 10rem;
+}
+@media (max-width: 992px) {
+  section.our-facts {
+    margin-top: 22rem;
+  }
+}

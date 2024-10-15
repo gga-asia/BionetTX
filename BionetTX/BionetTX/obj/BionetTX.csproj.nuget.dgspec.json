@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\BionetTXWeb\\BionetTX\\BionetTX\\BionetTX.csproj": {}
+    "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\BionetTX.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\BionetTXWeb\\BionetTX\\BionetTX\\BionetTX.csproj": {
+    "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\BionetTX.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\BionetTXWeb\\BionetTX\\BionetTX\\BionetTX.csproj",
+        "projectUniqueName": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\BionetTX.csproj",
         "projectName": "BionetTX",
-        "projectPath": "D:\\GitHub\\BionetTXWeb\\BionetTX\\BionetTX\\BionetTX.csproj",
+        "projectPath": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\BionetTX.csproj",
         "packagesPath": "C:\\Users\\MillyKuo\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\BionetTXWeb\\BionetTX\\BionetTX\\obj\\",
+        "outputPath": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MillyKuo\\AppData\\Roaming\\NuGet\\NuGet.Config",

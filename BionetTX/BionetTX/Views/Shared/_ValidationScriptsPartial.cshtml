@@ -2,7 +2,6 @@
 @* <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script> *@
 <script src="~/vendor/jquery/jquery.min.js"></script>
-<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="~/assets/js/isotope.min.js"></script>
 <script src="~/assets/js/owl-carousel.js"></script>
 <script src="~/assets/js/lightbox.js"></script>
@@ -11,7 +10,7 @@
 <script src="~/assets/js/slick-slider.js"></script>
 <script src="~/assets/js/custom.js"></script>
 
-@* <script>
+<script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');
 
@@ -45,6 +44,7 @@
                 var
                     currentId = $this.data('section'),
                     reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+
                 reqLink.closest('li').addClass('active').
                     siblings().removeClass('active');
             }
@@ -85,10 +85,10 @@
         document.getElementById("HH").style.color = "#FFFFFF";
         document.getElementById("meetings").style.paddingTop = "50px";
     }
-</script> *@
+</script>
 
 @* Kenny 原本的設定改寫 *@
-<script>
+@* <script>
     $(document).ready(function () {
         // 儲存選擇器
         var $sections = $('.section');
@@ -97,36 +97,6 @@
         // 將第一個導航項設置為活動狀態
         $navLinks.first().addClass('active');
 
-        // 部分滾動
-        // var showSection = function (section, isAnimate) {
-        //     var direction = section.replace(/#/, ''),
-        //         reqSection = $sections.filter('[data-section="' + direction + '"]'),
-        //         reqSectionPos = reqSection.offset().top;
-
-        //     if (isAnimate) {
-        //         $('body, html').animate({
-        //             scrollTop: reqSectionPos
-        //         }, 800);
-        //     } else {
-        //         $('body, html').scrollTop(reqSectionPos);
-        //     }
-        // };
-
-        // 檢查當前部分 - 滾動位置
-        // var checkSection = function () {
-        //     var wScroll = $(window).scrollTop();
-        //     $sections.each(function () {
-        //         var $this = $(this),
-        //             topEdge = $this.offset().top - 80,
-        //             bottomEdge = topEdge + $this.height();
-
-        //         if (topEdge < wScroll && bottomEdge > wScroll) {
-        //             var currentId = $this.data('section');
-        //             var reqLink = $('a[href*="#' + currentId + '"]');
-        //             reqLink.closest('li').addClass('active').siblings().removeClass('active');
-        //         }
-        //     });
-        // };
 
         // 事件綁定
         $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
@@ -156,4 +126,4 @@
     });
 
 
-</script>
+</script> *@
