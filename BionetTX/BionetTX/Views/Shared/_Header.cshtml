@@ -47,11 +47,27 @@
                                 <li><a href="@Url.Action("CorpIntro", "Home")">訊聯生技集團優勢</a></li>
                                 </ul>
                             </li>
+                            <!-- 產品服務 -->
                             <li class="has-sub">
                                 <a href="javascript:void(0)">產品服務</a>
                                 <ul class="sub-menu">
-                                    <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li>
-                                    <li><a href="@Url.Action("Exosome", "Home")">外泌體 Exosome</a></li>
+                                    <!-- 第二層 - 外泌體 Exosome -->
+                                    <li class="has-sub">
+                                    <a href="javascript:void(0)" class="third-item">外泌體 Exosome</a>
+                                        <!-- 第三層 -->
+                                        <ul class="sub-menu third-menu">
+                                            <li><a href="#">PRE自體血小板外泌體</a></li>
+                                            <li><a href="#">ExoCake/EXOVIA</a></li>
+                                            <li><a href="#">ANIKINE Series</a></li>
+                                            <li><a href="#">再生森髮Hair Thriving Technology</a></li>
+                                            <li><a href="#">客製化外泌體 (臍帶血、羊水)</a> </li>
+                                            <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
+                                            <li><a href="@Url.Action("#", "Home")">CRDMO代工服務</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- 第二層 - 細胞製劑 -->
+                                    <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
+                                    <li><a href="@Url.Action("#", "Home")">CRDMO代工服務</a></li>
                                 </ul>
                             </li>
                         <li ><a href="@Url.Action("Contact", "Home")">聯絡我們</a></li>
@@ -96,6 +112,54 @@
                         </a>
                         <!-- ***** Menu End ***** -->
                     </nav>
+                <nav class="mobile-main-nav">
+                    <!-- ***** Logo Start ***** -->
+
+                    <a href="default.aspx" class="logo">
+                        <img src="assets/images/logo.svg" style="width:70%">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav" >
+                        <li class="active"><a href="default.html" class="active">首頁</a></li>
+                        <li>
+                            <a href="news.html">最新消息</a>
+                        </li>
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">關於訊聯細胞智藥</a>
+                            <ul class="sub-menu" >
+                                <li><a href="Product1.html">訊聯細胞智藥簡介</a></li>
+                                <li><a href="Product2.html">訊聯生技集團優勢</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">產品服務</a>
+                            <ul class="sub-menu" >
+                                <li><a href="Product3.html">細胞製劑</a></li>
+                                <li class="has-sub is-open-sub">
+                                    <a href="javascript:void(0)">產品服務</a>
+                                    <ul class="sub-menu" >
+                                        <li><a href="Product3.html">細胞製劑</a></li>
+                                        <li><a href="Product4.html">外泌體 Exosome</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="#contact">聯絡我們</a></li>
+
+                        <li style="padding-right:10px"><a href="https://www.facebook.com/BIONETCorp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li style="padding-left:0px"><a href="https://www.linkedin.com/company/bionetcorp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                        <li style="padding-right:0px">
+                            <a href="https://www.bionettx.com/en">EN</a>
+                        </li>
+
+                    </ul>
+                    <a class="menu-trigger active">
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
                 </div>
             </div>
         </div>

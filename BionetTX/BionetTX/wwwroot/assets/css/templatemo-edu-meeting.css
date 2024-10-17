@@ -320,7 +320,7 @@ header
   
 }
 
-.background-header .nav {
+/*.background-header .nav {
   margin-top: 20px !important;
 }
 
@@ -393,16 +393,18 @@ header
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
-  position: absolute;
-  width: 200px;
-  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  overflow: hidden;
-  top: 40px;
-  opacity: 0;
-  transition: all .3s;
-  transform: translateY(+2em);
-  visibility: hidden;
-  z-index: -1;
+    position: absolute;
+    width: 200px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+     overflow: hidden;
+    overflow: visible;*/  /*改為可見 */
+    /*top: 40px;
+    opacity: 0;
+    opacity: 1;*/ /* 初始不透明度 */
+    /*transition: all .3s;
+    transform: translateY(+2em);
+    visibility: hidden;
+    z-index: -1;
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li {
@@ -445,7 +447,7 @@ header
   z-index: 1;
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s;
-}
+}*/
 
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
@@ -631,9 +633,9 @@ header
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
-  .header-area.header-sticky .nav {
+/*  .header-area.header-sticky .nav {
     margin-top: 100px !important;
-  }
+  }*/
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;

@@ -63,28 +63,33 @@
 
 <script>
     // 行動端使用者介面調整
-    function mobile() {
-        try {
-            document.createEvent("TouchEvent");
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
-    if (mobile()) {
-        document.getElementById("HH").style.fontSize = "36px";
-        document.getElementById("HH").style.color = "#FFFFFF";
-        document.getElementById("meetings").style.paddingTop = "200px";
-        document.getElementById("bionetlogo").style.width = "220px";
-        document.getElementById("ggalogo").style.width = "150px";
+    // function mobile() {
+    //     try {
+    //         document.createEvent("TouchEvent");
+    //         return true;
+    //     } catch (e) {
+    //         return false;
+    //     }
+    // }
+    // if (mobile()) {
+    //     document.getElementById("HH").style.fontSize = "36px";
+    //     document.getElementById("HH").style.color = "#FFFFFF";
+    //     document.getElementById("meetings").style.paddingTop = "200px";
+    //     document.getElementById("bionetlogo").style.width = "220px";
+    //     document.getElementById("ggalogo").style.width = "150px";
 
 
-    }
-    else {
-        document.getElementById("HH").style.fontSize = "48px";
-        document.getElementById("HH").style.color = "#FFFFFF";
-        document.getElementById("meetings").style.paddingTop = "50px";
-    }
+    // }
+    // else {
+    //     document.getElementById("HH").style.fontSize = "48px";
+    //     document.getElementById("HH").style.color = "#FFFFFF";
+    //     document.getElementById("meetings").style.paddingTop = "50px";
+    // }
+
+
+   
+
+
 </script>
 
 @* Kenny 原本的設定改寫 *@
@@ -127,3 +132,26 @@
 
 
 </script> *@
+
+ <script>
+    $(document).ready(function () {
+        // 點擊展開/收合第二層
+        $('.main-nav .nav li.has-sub > a').click(function (e) {
+            e.preventDefault();
+            var parentLi = $(this).parent();
+            parentLi.toggleClass('open');
+            parentLi.find('ul.sub-menu').slideToggle(300);
+        });
+
+        // 點擊展開/收合第三層
+        $('.main-nav .nav li.has-sub ul.sub-menu li.has-sub > a').click(function (e) {
+            e.preventDefault();
+            var parentLi = $(this).parent();
+            parentLi.toggleClass('open');
+            parentLi.find('ul.sub-menu').slideToggle(300);
+        });
+    });
+
+
+
+ </script>
