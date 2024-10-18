@@ -238,6 +238,8 @@
 	});
 
 	
+	//---------------------------------------------------------------------------
+
 
 	//const dropdownOpener = $('.main-nav ul.nav .has-sub > a');
 
@@ -276,151 +278,8 @@
  //       });
  //   }
 
- //還可以
-	//const dropdownOpener = $('.main-nav ul.nav .has-sub > a');
 
-	//// Open/Close Submenus
-	//if (dropdownOpener.length) {
-	//	dropdownOpener.each(function () {
-	//		var _this = $(this);
-
-	//		_this.on('tap click', function (e) {
-	//			var thisItemParent = _this.parent('li'),
-	//				thisItemParentSiblingsWithDrop = thisItemParent.siblings('.has-sub');
-
-	//			// 檢查是否有子選單
-	//			if (thisItemParent.hasClass('has-sub')) {
-	//				// 找到直接子層的 ul.sub-menu
-	//				var submenu = thisItemParent.find('> ul.sub-menu');
-
-	//				if (submenu.is(':visible')) {
-	//					submenu.slideUp(450, 'easeInOutQuad');
-	//					thisItemParent.removeClass('is-open-sub');
-	//				} else {
-	//					thisItemParent.addClass('is-open-sub');
-
-	//					// 若無其他兄弟項目則展開當前選單
-	//					if (thisItemParentSiblingsWithDrop.length === 0) {
-	//						thisItemParent.find('.sub-menu').slideUp(400, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					} else {
-	//						// 先關閉其他兄弟項目的子選單，再展開當前選單
-	//						thisItemParent.siblings().removeClass('is-open-sub').find('.sub-menu').slideUp(250, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					}
-	//				}
-	//			}
-
-	//			e.preventDefault();
-	//		});
-	//	});
-	//}
-
-	//const dropdownOpener = $('.main-nav ul.nav .has-sub > a'); // 確保選取正確的 a 元素
-
-	//// Open/Close Submenus
-	//if (dropdownOpener.length) {
-	//	dropdownOpener.each(function () {
-	//		var _this = $(this);
-
-	//		_this.on('tap click', function (e) {
-	//			var thisItemParent = _this.parent('li'),
-	//				thisItemParentSiblingsWithDrop = thisItemParent.siblings('.has-sub');
-
-	//			if (thisItemParent.hasClass('has-sub')) {
-	//				var submenu = thisItemParent.find('> ul.sub-menu');
-
-	//				if (submenu.is(':visible')) {
-	//					submenu.slideUp(450, 'easeInOutQuad');
-	//					thisItemParent.removeClass('is-open-sub');
-	//				} else {
-	//					thisItemParent.addClass('is-open-sub');
-
-	//					if (thisItemParentSiblingsWithDrop.length === 0) {
-	//						thisItemParent.find('.sub-menu').slideUp(400, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					} else {
-	//						thisItemParent.siblings().removeClass('is-open-sub').find('.sub-menu').slideUp(250, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					}
-	//				}
-	//			}
-
-	//			e.preventDefault();
-	//		});
-	//	});
-	//}
-
-	//// 處理第三層選單
-	//$('.main-nav ul.nav li.has-sub ul.sub-menu li.has-sub > a').on('tap click', function (e) {
-	//	e.stopPropagation(); // 防止事件冒泡
-	//	var thirdLevelMenu = $(this).siblings('ul.sub-menu');
-
-	//	if (thirdLevelMenu.is(':visible')) {
-	//		thirdLevelMenu.slideUp(250, 'easeInOutQuad');
-	//	} else {
-	//		thirdLevelMenu.slideDown(250, 'easeInOutQuad');
-	//	}
-
-	//	e.preventDefault();
-	//});
-
-
-	//const dropdownOpener = $('.main-nav ul.nav .has-sub > a'); // 確保選取正確的 a 元素
-
-	//// Open/Close Submenus
-	//if (dropdownOpener.length) {
-	//	dropdownOpener.each(function () {
-	//		var _this = $(this);
-
-	//		_this.on('tap click', function (e) {
-	//			var thisItemParent = _this.parent('li'),
-	//				thisItemParentSiblingsWithDrop = thisItemParent.siblings('.has-sub');
-
-	//			if (thisItemParent.hasClass('has-sub')) {
-	//				var submenu = thisItemParent.find('> ul.sub-menu');
-
-	//				if (submenu.is(':visible')) {
-	//					submenu.slideUp(450, 'easeInOutQuad');
-	//					thisItemParent.removeClass('is-open-sub');
-	//				} else {
-	//					thisItemParent.addClass('is-open-sub');
-
-	//					if (thisItemParentSiblingsWithDrop.length === 0) {
-	//						thisItemParent.find('.sub-menu').slideUp(400, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					} else {
-	//						thisItemParent.siblings().removeClass('is-open-sub').find('.sub-menu').slideUp(250, 'easeInOutQuad', function () {
-	//							submenu.slideDown(250, 'easeInOutQuad');
-	//						});
-	//					}
-	//				}
-	//			}
-
-	//			e.preventDefault();
-	//		});
-	//	});
-	//}
-
-	//// 處理第三層選單
-	//$('.main-nav ul.nav li.has-sub ul.sub-menu li.has-sub > a').on('tap click', function (e) {
-	//	e.stopPropagation(); // 防止事件冒泡
-	//	var thirdLevelMenu = $(this).siblings('ul.sub-menu');
-
-	//	if (thirdLevelMenu.is(':visible')) {
-	//		thirdLevelMenu.slideUp(250, 'easeInOutQuad');
-	//	} else {
-	//		thirdLevelMenu.slideDown(250, 'easeInOutQuad');
-	//	}
-
-	//	e.preventDefault();
-	//});
-
+	//---------------------------------------------------------------------------------
 
 	// 電腦、pad版ok
 	const dropdownOpener = $('.main-nav ul.nav .has-sub > a'); // 確保選取正確的 a 元素
@@ -460,30 +319,7 @@
 		});
 	}
 
-	// 處理第三層選單
-	//$('.main-nav ul.nav li.has-sub ul.sub-menu li.has-sub > a').on('tap click', function (e) {
-	//	e.stopPropagation(); // 防止事件冒泡
-	//	var thirdLevelMenu = $(this).siblings('ul.sub-menu');
-
-	//	if (thirdLevelMenu.css('display') === 'none') {
-	//		thirdLevelMenu.css('display', 'block'); // 顯示
-	//		thirdLevelMenu.animate({ opacity: 1 }, 250); // 使用動畫顯示
-	//	} else {
-	//		thirdLevelMenu.animate({ opacity: 0 }, 250, function () {
-	//			thirdLevelMenu.css('display', 'none'); // 隱藏
-	//		});
-	//	}
-
-	//	e.preventDefault();
-	//});
-
-
-
-
-
-
-
-
+	//---------------------------------------------------------------------------------
 
 
 

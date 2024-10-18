@@ -150,256 +150,6 @@ section.our-facts {
 }
 
 /*nav 第三層*/
-/* 第三層子選單的處理 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: absolute;
-    top: 0;*/ /* 讓第三層子選單和第二層的高度對齊 */
-/*left: 200px;*/ /* 向右偏移，與第二層並排顯示 */
-/*visibility: hidden;
-opacity: 0;
-transition: all .3s ease;
-transform: translateY(0);*/ /* 沒有上下偏移 */
-/*z-index: -1;
-}*/
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: absolute;
-    top: 0;
-    left: 200px;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .3s ease;
-    transform: translateY(0);
-    z-index: 1;  //修改 z-index 確保不被其他元素遮蓋 
-}*/
-/* 懸停在第二層選單時，顯示第三層 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub:hover ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
-    transform: translateY(0);
-    transition-delay: 0s, 0s, 0.3s;
-}*/
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub:hover ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    z-index: 2;*/ /* 提高 z-index 使其顯示 */
-/*transform: translateY(0);
-    transition-delay: 0s, 0s, 0.3s;
-}*/
-/* 第三層子選單的樣式 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu li a {
-    background: #fff;*/ /* 修改背景色 */
-/*color: #2a2a2a !important;*/ /* 字體顏色 */
-/*padding-left: 20px;*/ /* 與第二層保持一致 */
-/*height: 40px;
-    line-height: 40px;
-    border-bottom: 1px solid #eee;
-}
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu li a:hover {
-    background: #f7f7f7;
-    color: #f5a425 !important;*/ /* 懸停時的字體顏色 */
-/*padding-left: 25px;*/ /* 略微增加內邊距以顯示懸停效果 */
-/*}
-
-.third-menu {
-    position: absolute;
-    top: 0px;
-    left:0;
-   border: 1px solid red;
-    z-index: 99999;
-}*/
-/* nav 第三層 */
-/* 第三層子選單的處理 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: absolute;
-    top: 100%;*/ /* 將 top 設置為 100% 讓第三層出現在第二層的下方 */
-/*left: 0;*/ /* 將 left 設置為 0 讓第三層在第二層的左側對齊 */
-/*visibility: hidden;
-opacity: 0;
-transition: all .3s ease;
-transform: translateY(0);*/ /* 設置為 0 讓它沒有上下偏移 */
-/*z-index: 1;*/ /* 設置一個較高的 z-index 確保其可見 */
-/*}*/
-/* 懸停在第二層選單時，顯示第三層 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub:hover ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    z-index: 2;*/ /* 提高 z-index 使其顯示 */
-/*transform: translateY(0);
-    transition-delay: 0s, 0s, 0.3s;
-}*/
-/* nav 第三層 */
-/* 第三層子選單的處理 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: absolute;
-    top: 100%;*/ /* 確保位置在第二層下方 */
-/*left: 0;*/ /* 左側對齊 */
-/*visibility: hidden;*/ /* 初始隱藏 */
-/*opacity: 0;*/ /* 初始不透明度 */
-/*transition: all .3s ease;*/ /* 平滑過渡 */
-/*transform: translateY(0);*/ /* 沒有上下偏移 */
-/*z-index: 3;*/ /* 提高 z-index */
-/*background-color: #fff;*/ /* 確保有背景顏色 */
-/*}*/
-/* 懸停在第二層選單時，顯示第三層 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub:hover ul.sub-menu {
-    visibility: visible;*/ /* 顯示 */
-/*opacity: 1;*/ /* 不透明 */
-/*z-index: 3;*/ /* 提高 z-index 以確保可見 */
-/*transform: translateY(0);*/ /* 無上下偏移 */
-/*transition-delay: 0s, 0s, 0.3s;*/ /* 延遲過渡 */
-/*}*/
-/*測試1*/
-/*.background-header .nav {
-    margin-top: 20px !important;
-}
-
-.header-area .main-nav .nav {
-    float: right;
-    margin-top: 30px;
-    margin-right: 0px;
-    background-color: transparent;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    position: relative;
-    z-index: 999;
-}
-
-.header-area .main-nav .nav li {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.header-area .main-nav .nav li:last-child {
-    padding-right: 0px;
-}
-
-.header-area .main-nav .nav li a {
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    height: 40px;
-    line-height: 40px;
-    border: transparent;
-    letter-spacing: 1px;
-}
-
-.header-area .main-nav .nav li:hover a,
-.header-area .main-nav .nav li a.active {
-    color: #EC6D34 !important;
-}
-
-.background-header .main-nav .nav li:hover a,
-.background-header .main-nav .nav li a.active {
-    color: #EC6D34 !important;
-    opacity: 1;
-}
-
-.header-area .main-nav .nav li.has-sub {
-    position: relative;
-    padding-right: 15px;
-}
-
-.header-area .main-nav .nav li.has-sub:after {
-    font-family: FontAwesome;
-    content: "\f107";
-    font-size: 12px;
-    color: #fff;
-    position: absolute;
-    right: 5px;
-    top: 12px;
-}
-
-.background-header .main-nav .nav li.has-sub:after {
-    color: #1e1e1e;
-}
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu {
-    position: absolute;
-    width: 200px;
-    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-    overflow: hidden;
-    overflow: visible;*/ /*改為可見 */
-/*top: 40px;
-opacity: 0;
-opacity: 1;*/ /* 初始不透明度 */
-/*transition: all .3s;
-    transform: translateY(+2em);
-    visibility: hidden;
-    z-index: -1;
-}
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu li {
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu li a {
-    opacity: 1;
-    display: block;
-    background: #f7f7f7;
-    color: #2a2a2a !important;
-    padding-left: 20px;
-    height: 40px;
-    line-height: 40px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    position: relative;
-    font-size: 13px;
-    font-weight: 400;
-    border-bottom: 1px solid #eee;
-}
-
-.header-area .main-nav .nav li.has-sub ul li a:hover {
-    background: #fff;
-    color: #f5a425 !important;
-    padding-left: 25px;
-}
-
-.header-area .main-nav .nav li.has-sub ul li a:hover:before {
-    width: 3px;
-}
-
-.header-area .main-nav .nav li.has-sub:hover ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
-    transform: translateY(0%);
-    transition-delay: 0s, 0s, 0.3s;
-}*/
-/* 顯示第二層選單 */
-/*.header-area .main-nav .nav li.has-sub:hover > ul.sub-menu {
-    visibility: visible;*/ /* 顯示選單 */
-/*opacity: 1;*/ /* 不透明 */
-/*z-index: 4;*/ /* 確保在其他元素之上 */
-/*}*/
-/* 第三層子選單 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: absolute;
-    top: 100%;*/ /* 確保在第二層下方 */
-/*left: 0;*/ /* 左側對齊 */
-/*display: none;*/ /* 初始隱藏 */
-/*opacity: 0;*/ /* 初始不透明度 */
-/*transition: opacity .3s ease;*/ /* 平滑過渡 */
-/*z-index: 3;*/ /* 提高 z-index */
-/*}*/
-/* 懸停在第二層選單時，顯示第三層 */
-/*.header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub:hover ul.sub-menu {
-    display: block;*/ /* 顯示選單 */
-/*opacity: 1;*/ /* 不透明 */
-/*}*/
 /*測試2*/
 .background-header .nav {
   margin-top: 20px !important;
@@ -560,9 +310,275 @@ opacity: 1;*/ /* 初始不透明度 */
   top: 0px;
 }
 
-/*測試3-手機版*/
+/*測試3-手機版-20241017上版*/
+/*.mobile-main-nav{
+    display:none;
+}
+@media (max-width: 767px) {
+    .main-nav {
+        display: none;
+    }
+    .mobile-main-nav {
+        display: block;
+    }
+    .header-area.header-sticky .nav {
+        margin-top: 100px !important;
+    }
+
+    .header-area .main-nav .nav {
+        float: none;
+        width: 100%;
+        display: none;
+        -webkit-transition: all 0s ease 0s;
+        -moz-transition: all 0s ease 0s;
+        -o-transition: all 0s ease 0s;
+        transition: all 0s ease 0s;
+        margin-left: 0px;
+    }
+    //第一個 li 邊框設置
+    .header-area .main-nav .nav li:first-child {
+        border-top: 1px solid #eee;
+    }
+    //每個 li 的寬度和背景設置
+    .header-area .main-nav .nav li {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #eee;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    //li a 樣式：高度、顏色、背景色設置
+    .header-area .main-nav .nav li a {
+        height: 50px !important;
+        line-height: 50px !important;
+        padding: 0px !important;
+        border: none !important;
+        background: #f7f7f7 !important;
+        color: #EC6D34 !important;
+    }
+    //懸停時改變背景和文字顏色
+    .header-area .main-nav .nav li a:hover {
+        background: #eee !important;
+        color: #EC6D34 !important;
+    }
+    //子選單（第二層）樣式
+    .header-area .main-nav .nav li.has-sub ul.sub-menu {
+        position: relative;
+        visibility: inherit;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0%);
+        top: 0px;
+        width: 100%;
+        box-shadow: none;
+        height: 0px;
+        transition: all 0s;
+    }
+    //子選單（第二層）內部連結樣式
+    .header-area .main-nav .nav li.submenu ul li a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    //懸停時，子選單內部連結的 before 樣式
+    .header-area .main-nav .nav li.submenu ul li a:hover:before {
+        width: 0px;
+    }
+    //has-sub 的箭頭樣式調整
+    .header-area .main-nav .nav li.has-sub:after {
+        color: #3B566E;
+        right: 30px;
+        font-size: 14px;
+        top: 15px;
+    }
+    //第三層
+    .third-item:after {
+        display: none;
+    }
+}*/
+/*測試4-手機版*/
+/*.mobile-main-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-main-nav {
+        display: block;
+    }
+
+   // test start
+
+
+}
+
+.mobile-main-nav ul, ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-main-nav a {
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.mobile-main-nav {
+    overflow: auto;
+}*/
+/*第一層選單*/
+/*.mobile-main-nav > ul > li {
+    padding-left: 15px;
+    line-height: 3.3em;
+    border-bottom: solid 1px #333;
+}*/
+/*第二層選單*/
+/*.mobile-main-nav > ul > li > ul > li {
+    padding-left: 15px;
+    border-bottom: solid 1px #333;
+}
+
+.mobile-main-nav > ul > li > ul > li:first-child {
+    border-top: solid 1px #333;
+}
+
+.mobile-main-nav > ul > li > ul > li:last-child {
+    border: 0;
+}*/
+/*第三層選單*/
+/*.mobile-main-nav > ul > li > ul > li > ul > li {
+    padding-left: 15px;
+    border-bottom: solid 1px #333;
+}
+
+.mobile-main-nav > ul > li > ul > li > ul > li:first-child {
+    border-top: solid 1px #333;
+}
+
+.mobile-main-nav > ul > li > ul > li > ul > li:last-child {
+    border: 0;
+}
+
+.mobile-main-nav .menu-plus {
+    display: block;
+    background: #333;
+    color: #fff !important;
+    padding: 2px 15px;
+    margin-top: 5px;
+    border-radius: 30px;
+    float: right;
+}
+
+// logo 調整
+.mobile-main-nav .logo {
+    float:left;
+    > img {
+        width: 30vw;
+    }
+}
+// logo 調整 end
+
+// triggle*/
+/* 保證 menu-trigger 按鈕在 logo 右方並顯示三條橫線 */
+/*.mobile-main-nav {
+    position: relative;
+}
+
+.menu-trigger {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 40px;*/ /* 調整與 logo 的距離 */
+/*right: 20px;
+    width: 30px;
+    height: 24px;
+}
+
+.menu-trigger span,
+.menu-trigger span:before,
+.menu-trigger span:after {
+    display: block;
+    position: absolute;
+
+    height: 3px;
+    background-color: #1e1e1e;
+    transition: all 0.4s;
+}
+
+.menu-trigger span {
+    width: 100%;
+}
+
+
+.menu-trigger span:before,
+.menu-trigger span:after {
+    width: 75%;
+}
+
+    .menu-trigger span {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .menu-trigger span:before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu-trigger span:after {
+        content: '';
+        top: 8px;
+    }*/
+/* 點擊時變成交叉符號 */
+/*.menu-trigger.active span {
+    background-color: transparent;
+}
+
+.menu-trigger.active span:before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-trigger.active span:after {
+    transform: translateY(-8px) rotate(-45deg);
+}*/
+/* 調整 menu-trigger 的顯示方式在小屏幕下 */
+/*@media (max-width: 767px) {
+    .menu-trigger {
+        display: block !important;
+    }
+}
+// triggle end
+
+@media (min-width: 768px) {
+    #nav-btn, .mobile-sub-menu {
+        display: none;
+    }
+
+    .mobile-main-nav > .mobile-nav {
+        display: block !important;
+    }*/
+/*第一層選單*/
+/*.mobile-main-nav > ul > li {
+        float: left;
+        margin-left: 15px;
+        padding-left: 15px;
+        line-height: 3.3em;
+        border-bottom: solid 1px #333;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-main-nav > ul, .mobile-sub-menu {
+        display: none;
+    }
+}*/
 .mobile-main-nav {
   display: none;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -571,147 +587,157 @@ opacity: 1;*/ /* 初始不透明度 */
   }
   .mobile-main-nav {
     display: block;
-  }
-  .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-  }
-  .header-area .main-nav .nav {
-    float: none;
-    width: 100%;
-    display: none;
-    -webkit-transition: all 0s ease 0s;
-    -moz-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s;
-    transition: all 0s ease 0s;
-    margin-left: 0px;
-  }
-  .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
-  }
-  .header-area .main-nav .nav li {
-    width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-  .header-area .main-nav .nav li a {
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 0px !important;
-    border: none !important;
-    background: #f7f7f7 !important;
-    color: #EC6D34 !important;
-  }
-  .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #EC6D34 !important;
-  }
-  .header-area .main-nav .nav li.has-sub ul.sub-menu {
-    position: relative;
-    visibility: inherit;
-    opacity: 1;
-    z-index: 1;
-    transform: translateY(0%);
-    top: 0px;
-    width: 100%;
-    box-shadow: none;
-    height: 0px;
-    transition: all 0s;
-  }
-  .header-area .main-nav .nav li.submenu ul li a {
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .header-area .main-nav .nav li.submenu ul li a:hover:before {
-    width: 0px;
-  }
-  .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
-    right: 30px;
-    font-size: 14px;
-    top: 15px;
-  }
-  .third-item:after {
-    display: none;
+    min-height: 80px;
   }
 }
-/*測試4*/
+/* 保證 menu-trigger 按鈕在 logo 右方並顯示三條橫線 */
+.menu-trigger {
+  cursor: pointer;
+  position: absolute;
+  top: 40px; /* 調整與 logo 的距離 */
+  right: 20px;
+  width: 30px;
+  height: 24px;
+  display: none;
+}
 @media (max-width: 767px) {
-  .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-  }
-  .header-area .main-nav .nav {
-    float: none;
-    width: 100%;
-    display: none;
-    transition: all 0.3s ease;
-    margin-left: 0;
-  }
-  .header-area .main-nav .nav li {
-    width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  .header-area .main-nav .nav li a {
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 0 !important;
-    border: none !important;
-    background: #f7f7f7 !important;
-    color: #EC6D34 !important;
+  .menu-trigger {
     display: block;
-    text-align: left;
   }
-  .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #EC6D34 !important;
-  }
-  /* 子選單（第二層）樣式 */
-  .header-area .main-nav .nav li.has-sub ul.sub-menu {
-    position: relative;
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease, opacity 0.3s ease;
-    z-index: 1;
-  }
-  /* 當展開時 */
-  .header-area .main-nav .nav li.has-sub.open ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-  }
-  /* 第三層子選單 */
-  .header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub ul.sub-menu {
-    position: relative;
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease, opacity 0.3s ease;
-  }
-  /* 展開第三層 */
-  .header-area .main-nav .nav li.has-sub ul.sub-menu li.has-sub.open ul.sub-menu {
-    visibility: visible;
-    opacity: 1;
-    height: auto;
-  }
-  /* has-sub 的箭頭樣式 */
-  .header-area .main-nav .nav li.has-sub:after {
-    content: "\f107"; /* FontAwesome 下箭頭 */
-    font-family: FontAwesome;
-    color: #3B566E;
-    right: 30px;
-    font-size: 14px;
-    top: 15px;
-    position: absolute;
-  }
-  /* 展開狀態時，箭頭向上 */
-  .header-area .main-nav .nav li.has-sub.open:after {
-    content: "\f106"; /* FontAwesome 上箭頭 */
-  }
+}
+
+.menu-trigger span,
+.menu-trigger span:before,
+.menu-trigger span:after {
+  position: absolute;
+  height: 3px;
+  background-color: #1e1e1e;
+  transition: all 0.4s ease-in-out; /* 增加過渡效果 */
+  left: 0;
+}
+
+.menu-trigger span {
+  width: 100%;
+}
+
+.menu-trigger span:before,
+.menu-trigger span:after {
+  width: 75%;
+}
+
+.menu-trigger span {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-trigger span:before {
+  content: "";
+  top: -8px;
+}
+
+.menu-trigger span:after {
+  content: "";
+  top: 8px;
+}
+
+/* 點擊時變成交叉符號 */
+.menu-trigger.active span {
+  background-color: transparent;
+}
+
+.menu-trigger.active span:before {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-trigger.active span:after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* 改善 mobile-nav 的大小及文字置中 */
+.mobile-main-nav ul, .mobile-main-nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-main-nav a,
+.mobile-sub-menu a {
+  text-decoration: none;
+  line-height: 3em;
+  font-size: 1rem;
+  color: #EC6D34;
+  text-align: center;
+}
+
+.mobile-sub-menu a {
+  color: #2a2a2a;
+}
+
+.mobile-main-nav {
+  overflow-x: hidden;
+}
+
+/* 選單 */
+.mobile-main-nav ul li {
+  background: #F7f7f7;
+  border-bottom: 1px solid #eee;
+}
+
+/* 第一層選單 */
+.mobile-main-nav > ul > li {
+  padding-left: 0;
+  line-height: 3.3em;
+  border-bottom: solid 1px #eee;
+  text-align: center;
+}
+
+/* 第二層、第三層選單 */
+.mobile-main-nav > ul > li > ul > li,
+.mobile-main-nav > ul > li > ul > li > ul > li {
+  padding-left: 0;
+  border-bottom: solid 1px #eee;
+  text-align: center;
+}
+
+/* 展開/收合動畫 */
+.mobile-main-nav ul,
+.mobile-main-nav .mobile-nav {
+  display: none;
+  transition: max-height 0.4s ease-in-out; /* 增加滑動過渡效果 */
+  overflow: hidden;
+}
+
+.mobile-main-nav ul.open {
+  display: block;
+}
+
+/* 當展開的時候應有滑動效果 */
+.mobile-main-nav > ul, .mobile-sub-menu {
+  display: none;
+}
+
+.mobile-main-nav .logo {
+  float: left;
+  min-height: 97px;
+}
+.mobile-main-nav .logo > img {
+  width: 30vw;
+}
+
+.mobile-nav {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+.menu-plus {
+  margin-left: 1rem;
+  position: absolute;
+  right: 30px;
+  color: #38566e !important;
+}
+
+.menu-plus:after {
+  font-family: FontAwesome;
+  content: "\f107";
 }

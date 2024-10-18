@@ -133,6 +133,7 @@
 
 </script> *@
 
+@* 20241017上版-電腦 pad ok *@
  <script>
     $(document).ready(function () {
         // 點擊展開/收合第二層
@@ -151,6 +152,107 @@
             parentLi.find('ul.sub-menu').slideToggle(300);
         });
     });
+ </script> 
+ 
+ 
+ <script>
+    // $(function () {
+    //     var href = $(".mobile-main-nav > div > ul > li:has(ul) > a").attr('href');
+    //     $(".mobile-main-nav > ul > li:has(ul) > a").after('<a class="menu-plus">+</a>'); // 第二層
+    //     $(".mobile-main-nav > ul > li > ul > li:has(ul) > a").after('<a class="menu-plus">+</a>'); // 第三層
+
+    //     // #nav - btn
+    //     $(".mobile-main-nav > #nav-btn").click(function () {
+    //         $(".mobile-main-nav > ul").slideToggle(400);
+    //         return false;
+    //     });
+
+    //     $('.mobile-nav > li > a').on('click', function () {
+    //         $(this).siblings(".mobile-sub-menu").eq(0).slideToggle();
+
+    //         $(this).siblings(".menu-plus").eq(0).text(function (i, v) {
+    //             return v === '-' ? '+' : '-';
+    //         });
+    //     });
+
+    //     $('.mobile-nav > li > .menu-plus').on('click', function () {
+    //         $(this).text(function (i, v) {
+    //             return v === '-' ? '+' : '-';
+    //         });
+    //     });
+
+    //     $('.mobile-sub-menu > li > a').on('click', function () {
+    //         $(this).siblings(".mobile-sub-menu").eq(0).slideToggle();
+    //         $(this).siblings(".menu-plus").eq(0).text(function (i, v) {
+    //             return v === '-' ? '+' : '-';
+    //         });
+    //     });
+
+    //     $('.mobile-sub-menu > li > .menu-plus').on('click', function () {
+    //         $(this).text(function (i, v) {
+    //             return v === '-' ? '+' : '-';
+    //         });
+    //     });
+    // });
+
+
+    $(function () {
+    // 初始添加 "+" 符號
+        $(".mobile-main-nav > ul > li:has(ul) > a").after('<a class="menu-plus"></a>'); // 第二層
+        $(".mobile-main-nav > ul > li > ul > li:has(ul) > a").after('<a class="menu-plus"></a>'); // 第三層
+
+    // 菜單按鈕的觸發事件
+    // $(".mobile-main-nav > #nav-btn").click(function () {
+    //     $(".mobile-main-nav > ul").slideToggle(400); // 預設收起來，點擊展開
+    //     return false;
+  
+    // });
+        // 菜單按鈕的觸發事件
+        $(".mobile-main-nav > #nav-btn").click(function () {
+            // 檢查 .mobile-nav 是否已經有類 'd-flex'
+            if ($(".mobile-nav").hasClass('d-flex')) {
+                // 如果已經有類，則收合菜單，移除類
+                $(".mobile-main-nav > ul").css("display", "none");
+                $(".mobile-nav").removeClass('d-flex flex-column w-100 pt-1');
+            } else {
+                // 如果沒有類，則展開菜單，添加類
+                $(".mobile-nav").addClass('d-flex flex-column w-100 pt-1');
+                $(".mobile-main-nav > ul").css("display", "block");
+            }
+        });
+
+
+
+
+
+
+
+    // 第一層選單點擊展開/收合
+    $('.mobile-nav > li > a').on('click', function () {
+        $(this).siblings(".mobile-sub-menu").eq(0).slideToggle(400); // 增加滑動動畫
+            $(this).siblings(".menu-plus").eq(0).text(function (i, v) {
+            return v === '-' ? '' : '';
+        });
+    });
+
+    // 點擊 "+" 也可以展開/收合
+    $('.mobile-nav > li > .iconDown').on('click', function () {
+        $(this).siblings('.mobile-sub-menu').slideToggle(400); // 增加滑動動畫
+        $(this).text(function (i, v) {
+            return v === '-' ? '' : '';
+        });
+    });
+
+    // 第二層選單點擊展開/收合
+    $('.mobile-sub-menu > li > a').on('click', function () {
+        $(this).siblings(".mobile-sub-menu").eq(0).slideToggle(400); // 增加滑動動畫
+            $(this).siblings(".menu-plus").eq(0).text(function (i, v) {
+            return v === '-' ? '' : '';
+        });
+    });
+});
+
+
 
 
 

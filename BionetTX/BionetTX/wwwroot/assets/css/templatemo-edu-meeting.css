@@ -449,7 +449,7 @@ header
   transition-delay: 0s, 0s, 0.3s;
 }*/
 
-.header-area .main-nav .menu-trigger {
+/*.header-area .main-nav .menu-trigger {
   cursor: pointer;
   display: block;
   position: absolute;
@@ -460,13 +460,13 @@ header
   z-index: 99;
   right: 40px;
   display: none;
-}
+}*/
 
-.background-header .main-nav .menu-trigger {
+/*.background-header .main-nav .menu-trigger {
   top: 23px;
-}
+}*/
 
-.header-area .main-nav .menu-trigger span,
+/*.header-area .main-nav .menu-trigger span,
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
   -moz-transition: all 0.4s;
@@ -562,7 +562,7 @@ header
 
 .background-header .main-nav .menu-trigger.active span:after {
   background-color: #1e1e1e;
-}
+}*/
 
 .header-area.header-sticky {
   min-height: 80px;
@@ -614,9 +614,9 @@ header
   .header-area .logo {
     margin-left: 30px;
   }
-  .header-area .menu-trigger {
+/*  .header-area .menu-trigger {
     display: block !important;
-  }
+  }*/
   .header-area .main-nav {
     overflow: hidden;
   }

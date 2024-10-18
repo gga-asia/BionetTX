@@ -27,11 +27,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+    
+                @* pc & pad *@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-
                     <a href="@Url.Action("Index", "EN")" class="logo">
-                        <img src="~/EN/assets/images/logo.svg" style="width:70%;">
+                        <img src="~/assets/images/logo.svg" style="width:70%;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -47,21 +48,35 @@
                                 <li><a href="@Url.Action("CorpIntro", "EN")">About BIONET Group</a></li>
                             </ul>
                         </li>
+                        <!-- 產品服務 -->
                         <li class="has-sub">
                             <a href="javascript:void(0)">Product Information</a>
                             <ul class="sub-menu">
-                                <li><a href="@Url.Action("CellTherapy", "EN")"><font size="1">Cell Therapy Products</font></a></li>
-                                <li><a href="@Url.Action("Exosome", "EN")">Exosome</a></li>
+                                <!-- 第二層 - 外泌體 Exosome -->
+                                <li class="has-sub">
+                                    <a href="javascript:void(0)" class="third-item">Exosome</a>
+                                    <!-- 第三層 -->
+                                    <ul class="sub-menu third-menu">
+                                        <li><a href="#">PRE自體血小板外泌體</a></li>
+                                        <li><a href="#">ExoCake/EXOVIA</a></li>
+                                        <li><a href="#">ANIKINE Series</a></li>
+                                        <li><a href="#">再生森髮Hair Thriving Technology</a></li>
+                                        <li><a href="#">客製化外泌體 (臍帶血、羊水)</a> </li>
+                                        <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li><!-- 第二層 - 細胞製劑 -->
+                                        <li><a href="@Url.Action("#", "EN")">CRDMO代工服務</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 第二層 - 細胞製劑 -->
+                                <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li><!-- 第二層 - 細胞製劑 -->
+                                <li><a href="@Url.Action("#", "EN")">CRDMO代工服務</a></li>
                             </ul>
                         </li>
-                        <li ><a href="@Url.Action("Contact", "EN")">Contact us</a></li>
+                        <li><a href="@Url.Action("Contact", "EN")">Contact us</a></li>
 
                         <li style="padding-right:10px;"><a href="https://www.facebook.com/BIONETCorp" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li style="padding-left:0px; padding-right:50px;"><a href="https://www.linkedin.com/company/bionetcorp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li style="padding-left:0px;"><a href="https://www.linkedin.com/company/bionetcorp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-
-
-                       @* 切換中英 *@
+                        @* 切換中英 *@
                         @{
                             // 取得 controller 名稱並轉換為字串
                             var controllerNameObj = ViewContext.RouteData.Values["controller"];
@@ -90,13 +105,84 @@
                             }
                         </li>
 
-
                     </ul>
                     <a class='menu-trigger'>
-                        <span>Menu</span>
+                        <span></span>
                     </a>
                     <!-- ***** Menu End ***** -->
                 </nav>
+                @* pc & pad end *@
+
+                @*  mobile *@
+                <div class="mobile-main-nav">
+                    <a href="@Url.Action("Index", "EN")" class="logo d-flex align-items-center">
+                        <img src="~/assets/images/logo.svg">
+                    </a>
+                    <a class="menu-trigger" id="nav-btn"><span></span></a>
+                    @*  d-flex flex-column w-100 pt-1 *@
+                    <ul class="mobile-nav ">
+                        <li><a href="@Url.Action("Index", "EN")">Home</a></li>
+                        <li><a href="@Url.Action("News", "EN")">Latest News</a></li>
+                        <li>
+                            <a href="#">About Us</a>
+                            <ul class="mobile-sub-menu">
+                                <li><a href="@Url.Action("TxIntro", "EN")">Company overview</a></li>
+                                <li><a href="@Url.Action("CorpIntro", "EN")">About BIONET Group</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Product Information</a>
+                            <ul class="mobile-sub-menu">
+                                <li>
+                                    <a href="#">Exosome</a>
+                                    <ul class="mobile-sub-menu">
+                                        <li><a href="#">PRE自體血小板外泌體</a></li>
+                                        <li><a href="#">ExoCake/EXOVIA</a></li>
+                                        <li><a href="#">ANIKINE Series</a></li>
+                                        <li><a href="#">再生森髮Hair Thriving Technology</a></li>
+                                        <li><a href="#">客製化外泌體 (臍帶血、羊水)</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li>
+                                <li><a href="@Url.Action("#", "EN")">Exosome</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="@Url.Action("Contact", "EN")">Contact us</a></li>
+                        <li><a href="https://www.facebook.com/BIONETCorp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/bionetcorp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        @* 切換中英 *@
+                        @{
+                            // 取得 controller 名稱並轉換為字串
+                            var controllerNameObj2 = ViewContext.RouteData.Values["controller"];
+                            var controllerName2= controllerNameObj2 != null ? controllerNameObj2.ToString() : string.Empty;
+
+                            // 取得 action 名稱並轉換為字串，預設為 "Index"
+                            var actionNameObj2 = ViewContext.RouteData.Values["action"];
+                            var actionName2 = actionNameObj2 != null ? actionNameObj2.ToString() : "Index";
+                        }
+
+                        <li style="padding-right:0px;">
+                            @if (controllerName2 == "Home")
+                            {
+                                <!-- 當前是中文頁面，點擊切換到英文 -->
+                                <a href="@Url.Action(actionName2, "EN")">EN</a>
+                            }
+                            else if (controllerName2 == "EN")
+                            {
+                                <!-- 當前是英文頁面，點擊切換到中文 -->
+                                <a href="@Url.Action(actionName2, "Home")">繁中</a>
+                            }
+                            else
+                            {
+                                <!-- 當 controllerName 為 null 或其他值時，提供預設鏈接 -->
+                                <a href="@Url.Action("Index", "EN")">EN</a>
+                            }
+                        </li>
+                    </ul>
+
+                </div>
+
+                @* mobile end *@
             </div>
         </div>
     </div>
