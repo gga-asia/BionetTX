@@ -12,7 +12,7 @@
 
 <script>
     //according to loftblog tut
-    $('.nav li:first').addClass('active');
+    // $('.nav li:first').addClass('active');
 
     // 部分滾動
     var showSection = function showSection(section, isAnimate) {
@@ -253,7 +253,11 @@
 });
 
 
-
+    $('.main-nav>ul a').on('click', function () {
+        $('.main-nav>ul').find('li.a.active').removeClass('active');
+        $(this).parent('li.a').addClass('active');
+    });
 
 
  </script>
+
