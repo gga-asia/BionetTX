@@ -1,56 +1,60 @@
 ﻿    <!-- ***** Footer  ***** -->
-<section class="contact-us" id="contact">
+<section class="contact-us">
     <div class="container mt-5">
         <div class="row">
 
             <div class="col-lg-8 align-self-center fixed-height">
                 <div class="col-lg-12">
-                    <form id="contact" action="" method="post">
+                    <form id="contactEn" action="" method="post">
                         <div class="row">
                             <div class="col-lg-12">
-                                <h2>Contact Us <span style="font-size:14px;"> * required</span></h2>
+                                <h2>Contact Us <small> * required</small></h2>
                             </div>
 
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="name" type="text" id="name" placeholder="Name...*" required="">
+                                    <input name="name" type="text" placeholder="* Name" required="" v-model="contactInfo.name">
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="Tel" type="text" id="Tel" placeholder="Phone...*" required="">
+                                    <input name="Tel" type="text" placeholder="* Phone" required="" v-model="contactInfo.tel">
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="email" type="text" id="email" pattern="[^ @@]*@@[^ @@]*" placeholder="EMAIL...*" required="">
+                                    <input name="email" type="text" pattern="[^ @@]*@@[^ @@]*" placeholder="* EMAIL" required="" v-model="contactInfo.email">
                                 </fieldset>
                             </div>
 
                             <div class="col-lg-6">
                                 <fieldset>
-                                    <input name="subject" type="text" id="subject" placeholder="Company Name..." required="">
+                                    <input name="subject" type="text" placeholder="Company Name" v-model="contactInfo.company">
                                 </fieldset>
                             </div>
                             <div class="col-lg-6">
                                 <fieldset>
-                                    <span style="font-size:16px;color:#666666;padding: 6px 6px;">Issue Category</span>
-                                    <select name="questiontype" id="questiontype" style="font-size:14px;color:#666666"><option>Business Cooperation</option><option>Other</option></select>
+                                    <span style="font-size:14px;color:#666666;padding: 4px 4px;">Issue Category</span>
+
+                                    <select name="questiontype" style="font-size:14px;color:#666666;" required="" v-model="contactInfo.typeSelected">
+                                        <option disabled value="">* Select, please.</option>
+                                        <option v-for="option in questions" v-bind:value="option.value">{{ option.text }}</option>
+
+                                    </select>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <textarea name="message" type="text" class="form-control" id="message" placeholder="Inquiry Contents..." required=""></textarea>
+                                    <textarea name="message" type="text" class="form-control" placeholder="Inquiry Contents..." required="" v-model="contactInfo.description"></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
 
-                                    <button type="submit" id="submit1" class="button">Submit</button>
-                                    <br>
+                                    <button type="submit" class="button" v-on:click="Submit()">Submit</button> &nbsp;&nbsp;
                                     <span style="font-size:13px;">
-                                        I have read the full texts and agree to comply with the privacy policesas prescribed by 
-                                        <a href="@Url.Action("Disclaimer", "EN")" target="_blank"><font color="#EC6D34">Personal Data Protection Act</font></a>.
+                                        I have read the full texts and agree to comply with the privacy policesas prescribed by
+                                        <a href="@Url.Action("Disclaimer", "EN")" target="_blank"><font color="#EC6D34">Personal Data Protection Act</font></a>
                                     </span>
 
                                 </fieldset>
@@ -58,6 +62,7 @@
 
                         </div>
                     </form>
+
                 </div>
             </div>
             <div class="col-lg-4 fixed-height" id="rinfo">
@@ -91,4 +96,85 @@
 </section>
 
 <!-- ***** Footer end ***** -->
-   
+
+<script>
+    Vue.config.devtools = true;
+
+    var app = new Vue({
+        el: '#contactEn',
+        // 綁定模板 data
+        data: {
+            contactInfo: {
+                name: "",
+                tel: "",
+                email: "",
+                company: "",
+                typeSelected: "",
+                description: "",
+            },
+            questions: [
+                { value: "Business Cooperation", text: "Business Cooperation" },
+                { value: "Other", text: "Other" },
+            ],
+
+        },
+
+        mounted() {
+
+        },
+
+        methods: {
+            // 送出資料
+            Submit() {
+                var _this = this;
+
+                // 確認必填
+                var error = "";
+                if (_this.contactInfo.name == "") {
+                    error += "Name required.\n";
+                }
+                if (_this.contactInfo.tel == "") {
+                    error += "Phone required.\n";
+                }
+                if (_this.contactInfo.email == "") {
+                    error += "EMAIL required.\n";
+                }
+                if (_this.contactInfo.typeSelected == "") {
+                    error += "Issue category required.\n";
+                }
+                if (error) {
+                    alert(error);
+                    return;
+                }
+                // 確認必填 end
+
+
+                $.ajax({
+                    url: "@Url.Action("SendToTX", "Mail")",
+                    type: "POST",
+                    async: false, // 使用同步請求
+                    cache: false, // 不緩存結果
+                    data: {
+                        infoStr: JSON.stringify(_this.contactInfo), // 將 contactInfo 轉換為 JSON 字串傳遞
+                    },
+                    success(res) {
+                        alert(res.message); // 成功後彈出信息
+                        location.reload(); // 重新載入當前頁面
+                    },
+                    error(err) {
+                        console.error('Try again, please.', err); // 錯誤處理
+                    }
+                });
+
+
+
+            },
+
+        }
+        // methods end
+
+
+
+        //
+    })
+</script>

@@ -14,7 +14,7 @@
     ViewData["MetaOgDescription"] = "訊聯細胞智藥";
 }
 
-
+<script src="~/js/Vue/vue.js"></script>
 <section class="cus-contact contact-us contactSpace" id="contact">
     <div class="container">
         <div class="row">
@@ -24,51 +24,59 @@
                     <form id="contact" action="" method="post">
                         <div class="row">
                             <div class="col-lg-12">
-                                <h2>聯絡我們 <span style="font-size:14px;"> * 為必填</span></h2>
+                                <h2>聯絡我們 <small> * 為必填</small></h2>
                             </div>
 
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="name" type="text" id="name" placeholder="姓名...*" required="">
+                                    <input name="name" type="text" placeholder="* 姓名" required="" v-model="contactInfo.name">
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="Tel" type="text" id="Tel" placeholder="連絡電話...*" required="">
+                                    <input name="Tel" type="text" placeholder="* 連絡電話" required="" v-model="contactInfo.tel">
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="email" type="text" id="email" pattern="[^ @@]*@@[^ @@]*" placeholder="EMAIL...*" required="">
+                                    <input name="email" type="text" pattern="[^ @@]*@@[^ @@]*" placeholder="* EMAIL" required="" v-model="contactInfo.email">
                                 </fieldset>
                             </div>
 
                             <div class="col-lg-4">
                                 <fieldset>
-                                    <input name="subject" type="text" id="subject" placeholder="公司名稱..." required="">
+                                    <input name="subject" type="text" placeholder="公司名稱" v-model="contactInfo.company">
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
                                     <span style="font-size:14px;color:#666666;padding: 4px 4px;">問題類別</span>
-                                    <select name="questiontype" id="questiontype" style="font-size:14px;color:#666666;"><option>CRDMO委託製造</option><option>原料合作/採購</option><option>商品合作/採購</option><option>資訊詢問</option><option>其他</option></select>
+
+                                    <select name="questiontype" style="font-size:14px;color:#666666;" required="" v-model="contactInfo.typeSelected">
+                                        <option disabled value="">* 請選擇</option>
+                                        <option v-for="option in questions" v-bind:value="option.value">{{ option.text }}</option>
+
+                                    </select>
                                 </fieldset>
                             </div>
                             <div class="col-lg-4">
                                 <fieldset>
                                     <span style="font-size:14px;color:#666666;padding: 4px 4px;">資訊來源</span>
-                                    <select name="infosource" id="infosource" style="font-size:14px;color:#666666;"><option>官網平台</option><option>網路廣告</option><option>新聞</option><option>臉書</option><option>親友推薦</option><option>院所/DM</option><option>其他</option></select>
+                                    <select name="infosource" style="font-size:14px;color:#666666;" v-model="contactInfo.sourceSelected">
+                                        <option disabled value="">請選擇</option>
+                                        <option v-for="option in sources" v-bind:value="option.value">{{ option.text }}</option>
+                                    </select>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <textarea name="message" type="text" class="form-control" id="message" placeholder="細節說明..." required=""></textarea>
+                                    <textarea name="message" type="text" class="form-control" placeholder="細節說明..." required="" v-model="contactInfo.description"></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
 
-                                    <button type="submit" id="submit1" class="button">送出</button> &nbsp;&nbsp;
+                                    <button type="submit" class="button" v-on:click="Submit()">送出</button> &nbsp;&nbsp;
                                     <span style="font-size:13px;">
                                         為遵守個人資料保護法規定, 在您提供個人資料前, 請先閱讀
                                         <a href="@Url.Action("Disclaimer", "Home")" target="_blank"><font color="#EC6D34">個資條款</font></a>
@@ -110,3 +118,99 @@
         </div>
     </div>
 </section>
+<script>
+
+    Vue.config.devtools = true;
+
+    var app = new Vue({
+        el: '#contact',
+        // 綁定模板 data
+        data: {
+            contactInfo: {
+                name: "",
+                tel: "",
+                email: "",
+                company: "",
+                typeSelected: "",
+                sourceSelected: "",
+                description: "",
+            },
+            questions: [
+                { value: "CRDMO委託製造", text: "CRDMO委託製造" },
+                { value: "原料合作 / 採購", text: "原料合作 / 採購" },
+                { value: "商品合作 / 採購", text: "商品合作 / 採購" },
+                { value: "資訊詢問", text: "資訊詢問" },
+                { value: "其他", text: "其他" },
+            ],
+            sources: [
+                { value: "crdmo", text: "官網平台" },
+                { value: "ad", text: "網路廣告" },
+                { value: "news", text: "新聞" },
+                { value: "fb", text: "臉書" },
+                { value: "relatives", text: "親友推薦" },
+                { value: "dm", text: "院所/DM" },
+                { value: "others", text: "其他" },
+            ],
+
+
+        },
+
+        mounted() {
+
+        },
+
+        methods: {
+            // 送出資料
+            Submit() {
+                var _this = this;
+
+                // 確認必填
+                var error = "";
+                if (_this.contactInfo.name == "") {
+                    error += "姓名需填寫\n";
+                }
+                if (_this.contactInfo.tel == "") {
+                    error += "連絡電話需填寫\n";
+                }
+                if (_this.contactInfo.email == "") {
+                    error += "EMAIL需填寫\n";
+                }
+                if (_this.contactInfo.typeSelected == "") {
+                    error += "問題類別需選擇\n";
+                }
+                if (error) {
+                    alert(error);
+                    return;
+                }
+                // 確認必填 end
+
+
+                $.ajax({
+                    url: "@Url.Action("SendToTX", "Mail")",
+                    type: "POST",
+                    async: false, // 使用同步請求
+                    cache: false, // 不緩存結果
+                    data: {
+                        infoStr: JSON.stringify(_this.contactInfo), // 將 contactInfo 轉換為 JSON 字串傳遞
+                    },
+                    success(res) {
+                        alert(res.message); // 成功後彈出信息
+                        location.reload(); // 重新載入當前頁面
+                    },
+                    error(err) {
+                        console.error('Try again, please.', err); // 錯誤處理
+                    }
+                });
+
+
+
+            },
+
+        }
+        // methods end
+
+
+
+        //
+    })
+</script>

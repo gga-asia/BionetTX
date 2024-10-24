@@ -34,6 +34,8 @@ namespace BionetTX.Services
                 { "商品合作 / 採購" , "MillyKuo@gga.asia" },
                 { "資訊詢問" , "MillyKuo@gga.asia" },
                 { "其他" , "MillyKuo@gga.asia" },
+                { "Business Cooperation" , "MillyKuo@gga.asia" },
+                { "Other" , "MillyKuo@gga.asia" },
             };
 
             var receiveType = new List<string>();

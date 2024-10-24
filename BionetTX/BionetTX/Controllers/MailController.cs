@@ -22,7 +22,7 @@ namespace BionetTX.Controllers
 
             var result = "";
             mailService.SendToTX(infoStr);
-            return Ok(new { status = 200, message = "Messages Sent! Thank you.", data = result });
+            return Ok(new { status = 200, message = "Message Sent! Thank you.", data = result });
 
         }
         #endregion

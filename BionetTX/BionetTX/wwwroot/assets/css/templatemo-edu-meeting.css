@@ -1353,23 +1353,26 @@ section.contact-us {
   padding-top: 4rem;
 }
 
-section.contact-us #contact {
+section.contact-us #contact,
+#contactEn{
   background-color: #fff;
   border-radius: 20px;
   padding: 40px;
 }
 
-section.contact-us #contact h2 {
-  text-transform: uppercase;
-  color: #1f272b;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  font-size: 22px;
-  font-weight: 700;
-}
+    section.contact-us #contact h2,
+   #contactEn h2 {
+        text-transform: uppercase;
+        color: #1f272b;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-weight: 700;
+    }
 
-section.contact-us #contact input {
+section.contact-us #contact input, 
+ #contactEn input {
   width: 100%;
   height: 40px;
   border-radius: 20px;
@@ -1384,7 +1387,8 @@ section.contact-us #contact input {
   margin-bottom: 18px;
 }
 
-section.contact-us #contact textarea {
+section.contact-us #contact textarea ,
+#contactEn textarea {
   width: 100%;
   min-height: 140px;
   max-height: 180px;
@@ -1403,7 +1407,8 @@ section.contact-us #contact textarea {
 
 
 
-section.contact-us #contact button {
+section.contact-us #contact button ,
+#contactEn button {
   font-size: 13px;
   color: #fff;
   background-color: #EC6E34;
@@ -1417,9 +1422,10 @@ section.contact-us #contact button {
   outline: none;
 }
 
-section.contact-us #contact button:hover {
-  opacity: 0.9;
-}
+    section.contact-us #contact button:hover,
+    #contactEn  button:hover{
+        opacity: 0.9;
+    }
 
 section.contact-us .right-info {
   background-color: #EC6D34;
@@ -1828,7 +1834,8 @@ responsive
     margin-top: 15px;
   }
 
-  section.contact-us #contact {
+  section.contact-us #contact ,
+#contactEn {
     margin-bottom: 30px;
   }
 
