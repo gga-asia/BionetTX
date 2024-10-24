@@ -1313,6 +1313,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\Vue\\vue.js",
+      "PackagePath": "staticwebassets\\js\\Vue\\vue.js"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\Vue\\vue.min.js",
+      "PackagePath": "staticwebassets\\js\\Vue\\vue.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\Vue\\vue.min.js.map",
+      "PackagePath": "staticwebassets\\js\\Vue\\vue.min.js.map"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -88,6 +88,12 @@ body {
   overflow-y: auto;
 }
 
+small {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 400;
+}
+
 /*owl-carousel*/
 .owl-carousel .item {
   opacity: 0.85;
@@ -749,4 +755,8 @@ section.our-facts {
 .main-banner .caption h2 {
   font-weight: 500;
   font-size: 1.25rem;
+}
+
+.header-area .main-nav .nav li.has-sub ul.sub-menu {
+  width: 230px;
 }
