@@ -1283,14 +1283,15 @@ section.our-facts {
   padding: 70px 0px 70px 0px;
 }
 
-section.our-facts h2 {
-  font-size: 38px;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  margin-bottom: 50px;
-}
+
+    section.our-facts h2 {
+        font-size: 38px;
+        color: #fff;
+        line-height: 50px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-bottom: 50px;
+    }
 
 .count-area-content {
   text-align: center;
@@ -1322,7 +1323,7 @@ section.our-facts h2 {
   margin-top: 45px;
 }
 
-section.our-facts .video {
+/*section.our-facts .video {
   text-align: center;
   margin-left: 70px;
   background-image: url(../images/video-item-bg.svg);
@@ -1330,12 +1331,18 @@ section.our-facts .video {
   background-position: center center;
   background-size: 100% 100%;
   border-radius: 20px;
-}
+}*/
 
-section.our-facts .video img {
-  padding: 170px 0px;
-  max-width: 56px;
-}
+/*section.our-facts .en-video {
+    background-image: url(../images/video-item-bg-en.svg);
+    max-width: 56px;
+}*/
+
+    /*section.our-facts .video img>a {
+        max-width: 56px;
+        padding: 170px 0;*/ /* Adjust as needed, or remove if centering is handled differently */
+    /*}*/
+
 
 
 /* 

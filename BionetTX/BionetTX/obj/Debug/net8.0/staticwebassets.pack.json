@@ -737,6 +737,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\NewsBanner.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\TESTIMG-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TESTIMG-01.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\TESTPIC.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TESTPIC.jpg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\Web.config",
       "PackagePath": "staticwebassets\\assets\\images\\Web.config"
     },
@@ -1239,6 +1247,18 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\slider\\young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video-item-bg-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video-item-bg-01.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video-item-bg-en-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video-item-bg-en-01.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video-item-bg-en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\video-item-bg-en.svg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video-item-bg.jpg",

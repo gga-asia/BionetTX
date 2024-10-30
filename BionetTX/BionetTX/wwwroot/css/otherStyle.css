@@ -758,5 +758,79 @@ section.our-facts {
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
-  width: 230px;
+  width: 250px;
+}
+
+/*.our-facts div{
+    border: 1px solid pink;
+}*/
+section.our-facts .video,
+section.our-facts .imgwrap {
+  width: 100%;
+}
+
+section.our-facts .video a img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+section.our-facts .imgwrap img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.cus-block {
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.15);
+  border-radius: 20px;
+  padding: 20px 25px 20px 25px;
+  margin: 15px 0px;
+}
+.cus-block h5 {
+  color: #EC6D34;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*.right-col{
+    margin-top:3rem;
+}*/
+/* Basic Styles */
+.cus-block {
+  padding: 20px;
+  margin: 0.5rem;
+  border-radius: 8px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.cus-block:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .our-facts .col-md-6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .cus-block {
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+@media (min-width: 992px) {
+  .our-facts .col-md-6 {
+    gap: 15px;
+  }
+  .cus-block {
+    flex: 1 1 calc(33.33% - 10px); /* Adjusted for larger screens */
+  }
 }

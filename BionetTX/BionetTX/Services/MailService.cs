@@ -26,16 +26,16 @@ namespace BionetTX.Services
             var subject = "訊聯智藥官網來信";
 
             // 生成收件人信箱列表 
-            // 記得換 你要的收件者!!!
+            // 記得換 你要的收件者!!!  MillyKuo@gga.asia;AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com
             var emailMap = new Dictionary<string, string>()
             {
-                { "CRDMO委託製造" , "MillyKuo@gga.asia" },
-                { "原料合作 / 採購" , "MillyKuo@gga.asia" },
-                { "商品合作 / 採購" , "MillyKuo@gga.asia" },
-                { "資訊詢問" , "MillyKuo@gga.asia" },
-                { "其他" , "MillyKuo@gga.asia" },
-                { "Business Cooperation" , "MillyKuo@gga.asia" },
-                { "Other" , "MillyKuo@gga.asia" },
+                { "CRDMO委託製造" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "原料合作 / 採購" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "商品合作 / 採購" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "資訊詢問" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "其他" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "Business Cooperation" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
+                { "Other" , "MillyKuo@gga.asia; Milly.Kuo@sunrise.tw;" },
             };
 
             var receiveType = new List<string>();
