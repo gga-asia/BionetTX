@@ -7,6 +7,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BionetTX.Controllers
 {
+    //[ApiController]
+    //[Route("api/[controller]")]
     public class MailController(IMailService mailService, IDBDapper dBDapper) : Controller
     {
 
@@ -17,6 +19,7 @@ namespace BionetTX.Controllers
 
         #region 寄件功能
         [HttpPost]
+
         public IActionResult SendToTX(string infoStr)
         {
 
@@ -27,7 +30,7 @@ namespace BionetTX.Controllers
         }
         #endregion
 
- 
-       
+
+
     }
 }

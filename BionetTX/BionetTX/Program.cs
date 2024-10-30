@@ -2,6 +2,7 @@ using BionetTX.Services.IServices;
 using BionetTX.Services;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,12 +13,19 @@ builder.Services.AddControllersWithViews();
 // 自行增加
 // Default DbConnection
 builder.Services.AddScoped<IDbConnection>(sp =>
-    new SqlConnection(builder.Configuration.GetConnectionString("EPDB"))
+    new SqlConnection(builder.Configuration.GetConnectionString("API_LOG"))
 );
 // DBdapper
 builder.Services.AddScoped<IDBDapper, DBDapper>();
 // MailService
 builder.Services.AddScoped<IMailService, MailService>();
+// mail API
+builder.Services.AddHttpClient<IMailService, MailService>(client =>
+{
+    client.BaseAddress = new Uri("https://wpa.bionetcorp.com:9004");
+    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+});
+
 
 
 var app = builder.Build();
