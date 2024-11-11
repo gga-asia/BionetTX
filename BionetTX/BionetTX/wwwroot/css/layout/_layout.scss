@@ -36,6 +36,15 @@ $desktop-padding: 50px;
 // 基本樣式
 body {
     font-family: Arial, sans-serif;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+
+ 
+        font-family: "Noto Sans TC", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+   
 }
 
 #HH {

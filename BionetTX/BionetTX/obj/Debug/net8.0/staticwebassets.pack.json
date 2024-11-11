@@ -297,6 +297,10 @@
       "PackagePath": "staticwebassets\\EN\\assets\\images\\news-list3.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\EN\\assets\\images\\news-list30.svg",
+      "PackagePath": "staticwebassets\\EN\\assets\\images\\news-list30.svg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\EN\\assets\\images\\news-list4.svg",
       "PackagePath": "staticwebassets\\EN\\assets\\images\\news-list4.svg"
     },
@@ -1047,6 +1051,10 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list3.svg",
       "PackagePath": "staticwebassets\\assets\\images\\news-list3.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list30.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-list30.svg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list4-details.html",

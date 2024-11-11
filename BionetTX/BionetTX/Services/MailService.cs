@@ -26,7 +26,7 @@ namespace BionetTX.Services
 
 
         // 直接寫進資料庫
-        //public void  SendToTX(string infoStr)
+        //public void SendToTX(string infoStr)
         //{
         //    // 物件化
         //    var info = JsonConvert.DeserializeObject<contactInfoModel>(infoStr);

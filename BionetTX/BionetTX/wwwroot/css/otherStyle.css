@@ -32,6 +32,10 @@ section.headerOnlyFooter {
 /*Kenny原本的設定改寫*/
 body {
   font-family: Arial, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #HH {
@@ -191,7 +195,7 @@ section.our-facts {
   display: block;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -833,4 +837,26 @@ section.our-facts .imgwrap img {
   .cus-block {
     flex: 1 1 calc(33.33% - 10px); /* Adjusted for larger screens */
   }
+}
+/*.grid:not(.loaded) {
+    opacity: 0;
+}
+
+.grid.loaded {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+*/
+/*測試*/
+/*.grid {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.grid.loaded {
+    opacity: 1;
+}*/
+section.apply-now .item {
+  background-color: rgba(39, 71, 89, 0.9);
+  border-radius: 20px 20px;
 }

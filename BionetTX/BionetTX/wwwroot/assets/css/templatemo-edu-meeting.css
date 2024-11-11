@@ -173,7 +173,7 @@ select {
   display: inline-block;
   border-radius: 22px;
   font-weight: 500;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   transition: all .3s;
 }
 
@@ -189,7 +189,7 @@ select {
   display: inline-block;
   border-radius: 22px;
   font-weight: 500;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   transition: all .3s;
 }
 
@@ -205,7 +205,7 @@ select {
   border-bottom: 1px solid rgba(250,250,250,0.15);
   font-size: 22px;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #fff;
 }
 
@@ -306,7 +306,7 @@ header
   color: #fff;
   font-size: 28px;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
   float: left;
   -webkit-transition: all 0.3s ease 0s;
@@ -741,7 +741,7 @@ banner
 .main-banner .caption h6 {
   margin-top: 0px;
   font-size: 15px;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
@@ -751,7 +751,7 @@ banner
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 36px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
@@ -1008,7 +1008,7 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .down-content .date h6 {
   font-size: 13px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 600;
   color: #a12c2f;
 }
@@ -1059,7 +1059,7 @@ section.apply-now .item {
 
 section.apply-now .item h3 {
   color: #fff;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1369,7 +1369,7 @@ section.contact-us #contact,
 
     section.contact-us #contact h2,
    #contactEn h2 {
-        text-transform: uppercase;
+/*        text-transform: uppercase;*/
         color: #1f272b;
         border-bottom: 1px solid #eee;
         margin-bottom: 40px;
@@ -1423,7 +1423,7 @@ section.contact-us #contact button ,
   display: inline-block;
   border-radius: 22px;
   font-weight: 500;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   transition: all .3s;
   border: none;
   outline: none;
@@ -1503,7 +1503,7 @@ section.heading-page {
 section.heading-page h6 {
   margin-top: 0px;
   font-size: 15px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
@@ -1513,7 +1513,7 @@ section.heading-page h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 36px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 800;
   color: #fff;
   letter-spacing: 1px;
@@ -1550,7 +1550,7 @@ section.meetings-page .filters li {
   display: inline-block;
   border-radius: 22px;
   font-weight: 600;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   transition: all .3s;
   cursor: pointer;
   margin: 0px 3px;
@@ -1648,7 +1648,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb .date h6 {
   font-size: 13px;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 600;
   color: #a12c2f;
 }

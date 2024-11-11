@@ -51,7 +51,8 @@
                             <div class="col-lg-12">
                                 <fieldset>
 
-                                    <button type="submit" class="button" v-on:click="Submit()">Submit</button> &nbsp;&nbsp;
+                                    <button type="submit" class="button" v-on:click="Submit()">Submit</button>
+                                    <br />
                                     <span style="font-size:13px;">
                                         I have read the full texts and agree to comply with the privacy policesas prescribed by
                                         <a href="@Url.Action("Disclaimer", "EN")" target="_blank"><font color="#EC6D34">Personal Data Protection Act</font></a>
@@ -98,7 +99,7 @@
 <!-- ***** Footer end ***** -->
 
 <script>
-    Vue.config.devtools = true;
+    // Vue.config.devtools = true;
 
     var app = new Vue({
         el: '#contactEn',

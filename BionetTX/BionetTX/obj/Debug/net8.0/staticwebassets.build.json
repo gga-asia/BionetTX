@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Po0LE8cf4XH8ZR1JtwtPBt1etUcJ4bUth6O7rN7rgY=",
+  "Hash": "t2Kxsb+yHWXm9KQt9Zw8feKVh7mdLqfN2W2zNoo8iLI=",
   "Source": "BionetTX",
   "BasePath": "_content/BionetTX",
   "Mode": "Default",
@@ -2143,6 +2143,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\news-list3.svg"
+    },
+    {
+      "Identity": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list30.svg",
+      "SourceId": "BionetTX",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\",
+      "BasePath": "_content/BionetTX",
+      "RelativePath": "assets/images/news-list30.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\news-list30.svg"
     },
     {
       "Identity": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list3-details.html",
@@ -4841,6 +4860,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EN\\assets\\images\\news-list3.svg"
+    },
+    {
+      "Identity": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\EN\\assets\\images\\news-list30.svg",
+      "SourceId": "BionetTX",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\",
+      "BasePath": "_content/BionetTX",
+      "RelativePath": "EN/assets/images/news-list30.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EN\\assets\\images\\news-list30.svg"
     },
     {
       "Identity": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\EN\\assets\\images\\news-list4.svg",
