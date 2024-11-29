@@ -6,15 +6,142 @@
 }
 
 @{
-    ViewData["Title"] = "BIONET Therapeutics Corp.";
-    ViewData["MetaTitle"] = "訊聯細胞智藥-再生醫療製劑、細胞製劑、次世代外泌體Exosome、Exosome Foundry外泌體全球研發代工(訊聯生技集團)";
-    ViewData["MetaDescription"] = "訊聯細胞智藥股份有限公司為訊聯集團旗下訊聯生技、訊聯基因數位2家公司，整合3大核心能力「再生醫學/細胞治療」、「精準健康/基因醫學」、「數位科技/智慧研發」的新引擎，主攻再生醫療製劑、細胞製劑、智慧研發、智慧健康、次世代外泌體Exosome 、Exosome Foundry外泌體全球研發代工CRDMO、基因及細胞治療等先進療法，滿足全球更廣大的健康需求。目前7款細胞治療製劑開發中：急性呼吸窘迫症候群ARDS、肺部纖維化、慢性腎衰竭、急性傷口修復、慢性傷口癒合、退化性關節炎、乾眼症";
-    ViewData["MetaKeywords"] = "訊聯生技集團, 訊聯,細胞智藥,細胞製劑,再生醫療製劑,訊聯外泌體,次世代外泌體,外泌體,Exosome,急性呼吸窘迫症候群,ARDS,肺部纖維化,慢性腎衰竭,急性傷口修復,慢性傷口癒合,糖尿病足潰瘍,退化性關節炎,乾眼症,CRDMO,Exosome Foundry,外泌體研發代工";
+    ViewData["Title"] = "Exosome Foundry";
+    ViewData["MetaTitle"] = "訊聯次世代外泌體Meta Exosome- Exosome Foundry 全球研發代工，讓各行各業再生醫學化";
+    ViewData["MetaDescription"] = "Exosome Foundry 全球研發代工-協助醫療院所、原料供應商、新藥研發、生髮公司、醫材儀器、化妝品品牌代工相關外泌體產品，期盼透過各種外泌體導入與應用，促使商品價值翻漲，幫助產業升級，共同加速實踐生技兆元產業";
+    ViewData["MetaKeywords"] = "CRDMO,訊聯次世代外泌體,Exosome Foundry,meta exosome,次世代外泌體,新藥研發,研發代工,外泌體,exosomes,exosome,cell therapy";
     ViewData["MetaOgTitle"] = "訊聯細胞智藥";
     ViewData["MetaOgDescription"] = "訊聯細胞智藥";
 }
 
-<h1>
-    exosomefoundry測試
-</h1>
+<head>
+    <meta http-equiv="refresh" content="3;url=@GetDynamicUrl()" />
+</head>
+
+
+<div class="container spacing-controller">
+
+
+    <div class="text-center">
+        <a href="@GetDynamicUrl()">
+            <img src="~/assets/images/index/ExosomeFoundry.svg" alt="Exosome Foundry">
+        </a>
+
+    </div>
+</div>
+
+
+
+@inject IConfiguration Configuration;
+
+@* 測試ok *@
+@* @functions {
+    public string GetDynamicUrl()
+    {
+        var request = Context.Request;
+
+        // 獲取協議與主機名稱
+        var scheme = request.Scheme;
+        var host = request.Host.Host; // 僅取主機名稱 (不包含端口)
+
+
+        // 根據當前端口決定目標端口
+        var targetPort = request.Host.Port switch
+        {
+            7292 => 7291, // 從 7292 到 7291
+            8088 => 8087, // 從 8088 到 8087
+            _ => request.Host.Port // 預設維持當前端口
+        };
+
+
+
+        // 拼接目標 URL
+        return $"{scheme}://{host}:{targetPort}/EN/Index";
+
+
+    }
+}
+ *@
+
+
+@functions {
+    @* 11/27 網域測試中 *@
+    // public string GetDynamicUrl()
+    // {
+    //     var request = Context.Request;
+
+    //     // 獲取協議與主機名稱
+    //     var scheme = request.Scheme;
+    //     var host = request.Host.Host; // 僅取主機名稱 (不包含端口)
+    //     var port = request.Host.Port; // 獲取埠號
+
+    //     // 根據埠號決定目標埠號 (如果有指定規則)
+    //     var targetPort = port switch
+    //     {
+    //         7292 => 7291, // 從 7292 到 7291
+    //         8088 => 8087, // 從 8088 到 8087
+    //         _ => port // 預設維持當前埠號
+    //     };
+
+    //     // 根據網域名稱決定跳轉目標路徑
+    //     var targetPath = host switch
+    //     {
+    //         "www.exosomefoundry.com" => "/EN/Index", // 特定網域的路徑
+    //         "www.bionettx.com" => "/Home/Index",    // 特定網域的路徑
+    //         _ => "/"                                // 預設路徑
+    //     };
+
+    //     // 拼接完整的目標 URL
+    //     return $"{scheme}://{host}:{targetPort}{targetPath}";
+    // }
+
+    @* 11/28 網域測試中 *@
+    public string GetDynamicUrl()
+    {
+        var request = Context.Request;
+
+        // 獲取協議與主機名稱
+        var scheme = request.Scheme;
+        var host = request.Host.Host; // 僅取主機名稱 (不包含端口)
+        var port = request.Host.Port; // 獲取埠號
+
+        // 獲取環境資訊 (透過設定檔或環境變數)
+        var environment = Context.RequestServices.GetService<IConfiguration>()?["Environment"] ?? "Production";
+
+        // 決定目標路徑與埠號邏輯
+        if (environment == "Development" || environment == "UAT")
+        {
+            // 測試機根據埠號進行跳轉
+            var targetPort = port switch
+            {
+                7292 => 7291, // 測試機從 7292 跳轉到 7291
+                8088 => 8087, // 測試機從 8088 跳轉到 8087
+                _ => port     // 預設維持原埠號
+            };
+
+            // 拼接完整測試機 URL
+            return $"{scheme}://{host}:{targetPort}/EN/Index";
+        }
+        else if (environment == "Production")
+        {
+            // 正式機根據主機名稱跳轉
+            if (host == "www.exosomefoundry.com")
+            {
+                return $"https://www.bionettx.com/EN/Index";
+            }
+        }
+
+        // 預設返回當前路徑
+        return $"{scheme}://{host}:{port}/";
+
+        }
+
+
+
+}
+
+
+
+
 <script src="~/js/Vue/vue.js"></script>  
+

@@ -56,6 +56,20 @@ namespace BionetTX.Controllers
         }
         #endregion
 
+        #region 中文版-產品研發進程
+        public IActionResult Pipeline()
+        {
+            return View();
+        }
+        #endregion
+
+        #region 中文版-CRDMO
+        public IActionResult CRDMO()
+        {
+            return View();
+        }
+        #endregion
+
         #region 中文版-聯絡我們
         public IActionResult Contact()
         {

@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_WebToolingArtifacts Remove="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <_WebToolingArtifacts Remove="Properties\PublishProfiles\FolderProfileUAT.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="compilerconfig.json" />
   </ItemGroup>
 

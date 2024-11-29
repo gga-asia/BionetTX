@@ -49,40 +49,40 @@
                                 </ul>
                             </li>
                         <!--創新研發 -->
-@*                             <li class="has-sub">
+                            <li class="has-sub">
                                 <a href="javascript:void(0)">創新研發</a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">外泌體原料</a></li>
+                             @*        <li><a href="#">外泌體原料</a></li>
                                     <li><a href="#">再生醫療</a></li>
-                                    <li><a href="#">外泌體開發研究</a></li>
-                                    <li> <a href="#">產品研發進程</a> </li>
+                                    <li><a href="#">外泌體開發研究</a></li> *@
+                                     <li> <a href="@Url.Action("Pipeline", "Home")">產品研發進程</a> </li>
                                 </ul>
-                            </li> *@
+                            </li>
                             <!-- 產品服務 -->
                             <li class="has-sub">
                                 <a href="javascript:void(0)">產品服務</a>
                                 <ul class="sub-menu">
                                     <!-- 第二層 - 外泌體 Exosome -->
-@*                                     <li class="has-sub">
-                                    <a href="javascript:void(0)" class="third-item">次世代外泌體</a> *@
+                @*                     <li class="has-sub">
+                                    <a href="javascript:void(0)" class="third-item">次世代外泌體</a>
                                         <!-- 第三層 -->
-@*                                         <ul class="sub-menu third-menu">
-                                            <li><a href="#">PRE自體血小板外泌體</a></li>
-                                            <li><a href="#">ExoCake/EXOVIA</a></li>
-                                            <li><a href="#">ANIKINE Series</a></li>
-                                            <li><a href="#">再生森髮</a></li>
-                                            <li><a href="#">客製化外泌體 (臍帶血、羊水)</a> </li>
-                                            <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
-                                            <li><a href="@Url.Action("#", "Home")">CRDMO代工服務</a></li>
+                                        <ul class="sub-menu third-menu">
+                                            <li><a href="#">ANIKINE 臨床研究數據</a></li>
+                                            <li><a href="#">ANIKINE 居家保養系列</a></li>
+                                            <li><a href="#">ANIKINE 醫美保養系列</a></li>
+                                            <li><a href="#">EXOVIA / ExoCake</a></li>
+                                            <li><a href="#">自體血小板高濃度外泌體</a></li>
+                                             <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
+                                             <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                                         </ul>
                                     </li> *@
                                     <!-- 第二層 - 細胞製劑 -->
                                     <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
-                                    @* <li><a href="@Url.Action("#", "Home")">CRDMO代工服務</a></li> *@
+                                    <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                                 </ul>
                             </li>
                         <!-- 研究成果 -->
-                           @*  <li><a href="#">研究成果</a></li> *@
+                            <li><a href="#">研究成果</a></li>
 
                         <!-- 聯絡我們 -->
                             <li ><a href="@Url.Action("Contact", "Home")">聯絡我們</a></li>
@@ -147,33 +147,33 @@
                                 <li><a href="@Url.Action("CorpIntro", "Home")">訊聯集團優勢</a></li>
                             </ul>
                         </li>
-@*                         <li>
+                        <li>
                             <a href="#">創新研發</a>
                             <ul class="mobile-sub-menu">
-                                <li><a href="#">外泌體原料</a></li>
+                                @* <li><a href="#">外泌體原料</a></li>
                                 <li><a href="#">再生醫療</a></li>
-                                <li><a href="#">外泌體開發研究</a></li>
-                                <li><a href="#">產品研發進程</a></li>
+                                <li><a href="#">外泌體開發研究</a></li> *@
+                                <li><a href="@Url.Action("Pipeline", "Home")">產品研發進程</a></li>
                             </ul>
-                        </li> *@
+                        </li>
                         <li>
                            <a href="#">產品服務</a>
                             <ul class="mobile-sub-menu">
                                 @* <li>
                                     <a href="#">次世代外泌體</a>
                                     <ul class="mobile-sub-menu">
-                                        <li><a href="#">PRE自體血小板外泌體</a></li>
-                                        <li><a href="#">ExoCake/EXOVIA</a></li>
-                                        <li><a href="#">ANIKINE Series</a></li>
-                                        <li><a href="#">再生森髮</a></li>
-                                        <li><a href="#">客製化外泌體 (臍帶血、羊水)</a></li>
+                                        <li><a href="#">ANIKINE 臨床研究數據</a></li>
+                                        <li><a href="#"> ANIKINE 居家保養系列</a></li>
+                                        <li><a href="#">ANIKINE 醫美保養系列</a></li>
+                                        <li><a href="#">EXOVIA / ExoCake</a></li>
+                                        <li><a href="#">自體血小板高濃度外泌體 </a></li>
                                     </ul>
                                 </li> *@
                                 <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li>
-                               @*  <li><a href="@Url.Action("#", "Home")">CRDMO代工服務</a></li> *@
+                                <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                             </ul>
                         </li>
-                       @*  <li><a href="@Url.Action("#", "Home")">研究成果</a></li> *@
+                        @* <li><a href="@Url.Action("#", "Home")">研究成果</a></li> *@
                         <li><a href="@Url.Action("Contact", "Home")">聯絡我們</a></li>
                         <li><a href="https://www.facebook.com/BIONETCorp" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/bionetcorp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>

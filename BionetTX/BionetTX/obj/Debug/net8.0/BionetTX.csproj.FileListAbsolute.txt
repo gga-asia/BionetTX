@@ -146,3 +146,8 @@ D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\BionetTX.csproj.Assemb
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\BionetTX.csproj.CopyComplete
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\bin\Debug\net8.0\Web.config
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exosomefoundry.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_pipeline.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_pipelineEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_crdmo.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_crdmoEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\bin\Debug\net8.0\appsettings.UAT.json

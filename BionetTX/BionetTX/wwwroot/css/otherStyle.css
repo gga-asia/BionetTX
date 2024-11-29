@@ -54,12 +54,12 @@ body {
 
 @media (max-width: 768px) {
   #meetings {
-    padding-top: 200px;
+    padding-top: 4rem;
   }
 }
 @media (min-width: 769px) {
   #meetings {
-    padding-top: 50px;
+    padding-top: 5rem;
   }
 }
 
@@ -96,6 +96,17 @@ small {
   font-size: 1rem;
   color: gray;
   font-weight: 400;
+}
+
+/*另加連結*/
+.hrefBlank {
+  background-color: white;
+  color: #0C3849;
+  border-radius: 20px 20px;
+  padding: 20px 40px;
+}
+.hrefBlank a {
+  color: rgba(12, 56, 73, 0.5019607843);
 }
 
 /*owl-carousel*/
@@ -234,7 +245,7 @@ section.our-facts {
 }
 
 .background-header .main-nav .nav li.has-sub:after {
-  color: #1e1e1e;
+  color: transparent;
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -773,6 +784,16 @@ section.our-facts .imgwrap {
   width: 100%;
 }
 
+section.our-facts .video {
+  width: 90%;
+}
+@media (max-width: 767px) {
+  section.our-facts .video {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
+
 section.our-facts .video a img {
   background-repeat: no-repeat;
   background-position: center center;
@@ -859,4 +880,26 @@ section.our-facts .imgwrap img {
 section.apply-now .item {
   background-color: rgba(39, 71, 89, 0.9);
   border-radius: 20px 20px;
+}
+
+.services .item .icon {
+  max-width: 80px;
+}
+
+.item .icon {
+  background-color: white;
+  border-radius: 50% 50%;
+  width: 80px;
+  height: 80px;
+}
+.item .icon img {
+  width: 100%;
+}
+
+.ExosomeImg {
+  margin: 0 auto;
+}
+
+.spacing-controller {
+  margin-bottom: 50vh;
 }

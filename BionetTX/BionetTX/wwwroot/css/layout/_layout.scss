@@ -30,8 +30,8 @@ section.headerOnlyFooter {
 $font-color: #FFFFFF;
 $mobile-font-size: 36px;
 $desktop-font-size: 48px;
-$mobile-padding: 200px;
-$desktop-padding: 50px;
+$mobile-padding: 4rem;  //200px
+$desktop-padding: 5rem;//50px
 
 // 基本樣式
 body {
@@ -101,4 +101,16 @@ small{
     font-size: 1rem;
     color: gray;
     font-weight: 400;
+}
+
+/*另加連結*/
+.hrefBlank {
+    background-color: white;
+    color: #0C3849;
+    border-radius: 20px 20px;
+    padding: 20px 40px;
+
+    a {
+        color: #0C384980;
+    }
 }

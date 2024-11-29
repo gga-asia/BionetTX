@@ -142,13 +142,13 @@ namespace BionetTX.Services
             // 記得換 你要的收件者!!!  MillyKuo@gga.asia;AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com
             var emailMap = new Dictionary<string, string>()
             {
-                { "CRDMO委託製造" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "原料合作 / 採購" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "商品合作 / 採購" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "資訊詢問" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "其他" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "Business Cooperation" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
-                { "Other" , "AlusaLu@GGA.ASIA;JennyLee2@BionetCorp.com;" },
+                { "CRDMO委託製造" , "service@bionettx.com;" },
+                { "原料合作 / 採購" , "service@bionettx.com;" },
+                { "商品合作 / 採購" , "service@bionettx.com;" },
+                { "資訊詢問" , "service@bionettx.com;" },
+                { "其他" , "service@bionettx.com;" },
+                { "Business Cooperation" , "service@bionettx.com;" },
+                { "Other" , "service@bionettx.com;" },
             };
 
             var receiveType = new List<string>();
