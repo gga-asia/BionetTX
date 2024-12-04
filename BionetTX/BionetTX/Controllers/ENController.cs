@@ -61,6 +61,12 @@ namespace BionetTX.Controllers
         }
         #endregion
 
+        #region 英文版-外泌體開發研究 Exosome R&D
+        public IActionResult ExosomeRD()
+        {
+            return View();
+        }
+        #endregion
 
         #region 英文版-聯絡我們
         public IActionResult Contact()

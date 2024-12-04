@@ -813,6 +813,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\content\\CRDMO-en.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Exosome-RD-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\Exosome-RD-banner.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Exosome-RD-cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\Exosome-RD-cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Exosome-RD-en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\Exosome-RD-en.svg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Pipeline-banner-cn.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\Pipeline-banner-cn.jpg"
     },

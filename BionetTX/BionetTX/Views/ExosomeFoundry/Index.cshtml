@@ -34,68 +34,10 @@
 
 @inject IConfiguration Configuration;
 
-@* 測試ok *@
-@* @functions {
-    public string GetDynamicUrl()
-    {
-        var request = Context.Request;
-
-        // 獲取協議與主機名稱
-        var scheme = request.Scheme;
-        var host = request.Host.Host; // 僅取主機名稱 (不包含端口)
-
-
-        // 根據當前端口決定目標端口
-        var targetPort = request.Host.Port switch
-        {
-            7292 => 7291, // 從 7292 到 7291
-            8088 => 8087, // 從 8088 到 8087
-            _ => request.Host.Port // 預設維持當前端口
-        };
-
-
-
-        // 拼接目標 URL
-        return $"{scheme}://{host}:{targetPort}/EN/Index";
-
-
-    }
-}
- *@
-
 
 @functions {
-    @* 11/27 網域測試中 *@
-    // public string GetDynamicUrl()
-    // {
-    //     var request = Context.Request;
 
-    //     // 獲取協議與主機名稱
-    //     var scheme = request.Scheme;
-    //     var host = request.Host.Host; // 僅取主機名稱 (不包含端口)
-    //     var port = request.Host.Port; // 獲取埠號
-
-    //     // 根據埠號決定目標埠號 (如果有指定規則)
-    //     var targetPort = port switch
-    //     {
-    //         7292 => 7291, // 從 7292 到 7291
-    //         8088 => 8087, // 從 8088 到 8087
-    //         _ => port // 預設維持當前埠號
-    //     };
-
-    //     // 根據網域名稱決定跳轉目標路徑
-    //     var targetPath = host switch
-    //     {
-    //         "www.exosomefoundry.com" => "/EN/Index", // 特定網域的路徑
-    //         "www.bionettx.com" => "/Home/Index",    // 特定網域的路徑
-    //         _ => "/"                                // 預設路徑
-    //     };
-
-    //     // 拼接完整的目標 URL
-    //     return $"{scheme}://{host}:{targetPort}{targetPath}";
-    // }
-
-    @* 11/28 網域測試中 *@
+    @* 11/28 網域測試OK *@
     public string GetDynamicUrl()
     {
         var request = Context.Request;
@@ -139,9 +81,6 @@
 
 
 }
-
-
-
 
 <script src="~/js/Vue/vue.js"></script>  
 
