@@ -153,3 +153,5 @@ D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\bin\Debug\net8.0\appsettings.UAT.json
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exosomeRD.cshtml.rz.scp.css
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exosomeRdEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_rawMaterial.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_rawMaterialEN.cshtml.rz.scp.css

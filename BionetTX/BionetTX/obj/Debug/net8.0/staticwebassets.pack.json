@@ -845,6 +845,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\content\\Pipeline-en.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\RawMaterial-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\RawMaterial-banner.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\RawMaterial-cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\RawMaterial-cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\RawMaterial-en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\RawMaterial-en.svg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\p1content-cn.svg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\p1content-cn.svg"
     },
@@ -1199,6 +1211,10 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list24.svg",
       "PackagePath": "staticwebassets\\assets\\images\\news-list24.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list241204001.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-list241204001.svg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list25.svg",

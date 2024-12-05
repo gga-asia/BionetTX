@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+
+    <title>@ViewData["Title"] - BionetTX</title>
+
+    <!-- 動態設置 meta title -->
+    @if (ViewData["MetaTitle"] != null)
+    {
+        <meta name="title" content="@ViewData["MetaTitle"]" />
+    }
+
+    <!-- 動態設置 meta description -->
+    @if (ViewData["MetaDescription"] != null)
+    {
+        <meta name="description" content="@ViewData["MetaDescription"]" />
+    }
+
+    <!-- 動態設置 meta keywords -->
+    @if (ViewData["MetaKeywords"] != null)
+    {
+        <meta name="keywords" content="@ViewData["MetaKeywords"]" />
+    }
+
+    <!-- 動態設置 Open Graph 標籤 -->
+    @if (ViewData["MetaOgTitle"] != null)
+    {
+        <meta property="og:title" content="@ViewData["MetaOgTitle"]" />
+    }
+    @if (ViewData["MetaOgDescription"] != null)
+    {
+        <meta property="og:description" content="@ViewData["MetaOgDescription"]" />
+    }
+
+    <partial name="_HeadPartial" />
+</head>
+<body>
+    <!-- 引入 Header 部分視圖 -->
+    <partial name="_HeaderEN" />
+
+    <section class="heading-page header-text" id="top" style="background-image: url('../assets/images/content/RawMaterial-banner.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>&nbsp;</h6>
+                    <h2 style="letter-spacing: 1.2rem;">Raw Material</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @RenderBody()
+
+    <!-- 引入 Footer 部分視圖 -->
+    <partial name="_FooterEN" />
+
+
+    <!-- Scripts -->
+    <partial name="_ValidationScriptsPartial" />
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
+
+@section Scripts{
+
+}
+
