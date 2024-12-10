@@ -903,3 +903,26 @@ section.apply-now .item {
 .spacing-controller {
   margin-bottom: 50vh;
 }
+
+/*news container*/
+#photos__container {
+  position: relative;
+  width: 100%; /* 自适应容器宽度 */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.photo {
+  position: absolute;
+  width: 30%; /* 每张照片固定宽度 */
+  background: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  transition: all 0.3s ease; /* 添加动画效果 */
+}
+@media (max-width: 992px) {
+  .photo {
+    width: 100%;
+  }
+}
