@@ -793,6 +793,42 @@
       "PackagePath": "staticwebassets\\assets\\images\\content.html"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-banner.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\AKIKINE-MetaExosomeB2C-en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE-ResearchData-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE-ResearchData-banner.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE-ResearchData-cn-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE-ResearchData-cn-2.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE-ResearchData-cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE-ResearchData-cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE-ResearchData-en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE-ResearchData-en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE_cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE_cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\ANIKINE_en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\ANIKINE_en.svg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\CRDMO-banner-cn.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\CRDMO-banner-cn.jpg"
     },
@@ -813,6 +849,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\content\\CRDMO-en.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\EXOCAKE_cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\EXOCAKE_cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\EXOCAKE_en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\EXOCAKE_en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\EXOVIA-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\EXOVIA-banner.jpg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Exosome-RD-banner.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\Exosome-RD-banner.jpg"
     },
@@ -823,6 +871,22 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Exosome-RD-en.svg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\Exosome-RD-en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\PRE_cn.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\PRE_cn.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\PRE_cn_wrong.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\PRE_cn_wrong.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\PRE_en.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\PRE_en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\PRE_en_wrong.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\PRE_en_wrong.svg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\Pipeline-banner-cn.jpg",
@@ -857,6 +921,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\content\\RawMaterial-en.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\btn-buyNow-cn.png",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\btn-buyNow-cn.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\btn-buyNow-en.png",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\btn-buyNow-en.png"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\p1content-cn.svg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\p1content-cn.svg"
     },
@@ -883,6 +955,22 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\p3content-en.svg",
       "PackagePath": "staticwebassets\\assets\\images\\content\\p3content-en.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\首頁-新區(中).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\首頁-新區(中).jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\首頁-新區(英).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\首頁-新區(英).jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\首頁-花絮影片1920x1080(中).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\首頁-花絮影片1920x1080(中).jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\content\\首頁-花絮影片1920x1080(英).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content\\首頁-花絮影片1920x1080(英).jpg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\course-01.jpg",
@@ -971,6 +1059,10 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\heading-bg2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\heading-bg2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\icons\\icon_Bionettx-xs.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon_Bionettx-xs.png"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\icons\\icon_O_11AABB.svg",
@@ -1067,6 +1159,22 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\index\\exosomeSection-en.png",
       "PackagePath": "staticwebassets\\assets\\images\\index\\exosomeSection-en.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\index\\video-section-cn.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\index\\video-section-cn.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\index\\video-section-en.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\index\\video-section-en.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\index\\video-section-left-cn.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\index\\video-section-left-cn.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\index\\video-section-left-en.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\index\\video-section-left-en.jpg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\line.png",
@@ -1475,6 +1583,50 @@
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video-item-bg22.svg",
       "PackagePath": "staticwebassets\\assets\\images\\video-item-bg22.svg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-10.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-2-en.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-2-en.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-3.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-4.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-5.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-6.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-7.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-8.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-9.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-banner.jpg"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\js\\custom.js",

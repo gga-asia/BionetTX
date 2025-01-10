@@ -155,3 +155,17 @@ D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exosomeRdEN.cshtml.rz.scp.css
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_rawMaterial.cshtml.rz.scp.css
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_rawMaterialEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_sample.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_sampleEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_metaExosomeB2C.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_metaExosomeB2CEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_anikineResearchData.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_anikineResearchDataEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_video.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_videoEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exovia.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_exoviaEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_pre.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_preEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_clinicseries.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_clinicseriesEN.cshtml.rz.scp.css

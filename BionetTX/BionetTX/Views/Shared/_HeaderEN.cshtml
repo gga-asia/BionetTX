@@ -47,6 +47,7 @@
                             <ul class="sub-menu">
                                 <li><a href="@Url.Action("TxIntro", "EN")">Company overview</a></li>
                                 <li><a href="@Url.Action("CorpIntro", "EN")">About BIONET Group</a></li>
+                                <li><a href="@Url.Action("Video", "EN")">Video</a></li>
                             </ul>
                         </li>
                         <!--創新研發 -->
@@ -64,21 +65,22 @@
                             <a href="javascript:void(0)">Product Information</a>
                             <ul class="sub-menu">
                                 <!-- 第二層 - 外泌體 Exosome -->
-       @*                           <li class="has-sub">
+                                 <li class="has-sub">
                                     <a href="javascript:void(0)" class="third-item">
-                                        Meta exosome
+                                        Meta Exosome
                                     </a>
                                    
                                     <ul class="sub-menu third-menu">
-                                        <li><a href="#">ANIKINE-Clinical research data</a></li>
-                                        <li><a href="#">ANIKINE Series (B2C)</a></li>
-                                        <li><a href="#">ANIKINE Series (B2B)</a></li>
-                                        <li><a href="#">EXOVIA / ExoCake</a></li>
-                                        <li><a href="#">Platelet-Rich Exosomes</a></li>
-                                        <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li><!-- 第二層 - 細胞製劑 -->
+                                        <li><a href="@Url.Action("Exocake", "EN")">EXOVIA / ExoCake</a></li>
+                                        <li> <a href="@Url.Action("Pre", "EN")">PRE (Platelet-Rich Exosome)</a></li>
+                                        <li><a href="@Url.Action("MetaExosomeB2C", "EN")">Meta Exosome Home Care Series</a></li>
+                                        <li><a href="@Url.Action("ClinicSeries", "EN")">ANIKINE Clinic Series</a></li>
+                                        <li><a href="@Url.Action("AnikineResearchData", "EN")">Exosome Clinical Data</a></li>
+                                        <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li>
                                         <li><a href="@Url.Action("CRDMO", "EN")">CRDMO Services</a></li>
+
                                     </ul>
-                                </li>  *@
+                                </li> 
                                 <!-- 第二層 - 細胞製劑 -->
                                 <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Products</a></li><!-- 第二層 - 細胞製劑 -->
                                 <li><a href="@Url.Action("CRDMO", "EN")">CRDMO Services</a></li>
@@ -101,23 +103,26 @@
                             var actionName = actionNameObj != null ? actionNameObj.ToString() : "Index";
                         }
 
-                        <li style="padding-right:0px;">
-                            @if (controllerName == "Home")
-                            {
-                                <!-- 當前是中文頁面，點擊切換到英文 -->
-                                <a href="@Url.Action(actionName, "EN")">EN</a>
-                            }
-                            else if (controllerName == "EN")
-                            {
-                                <!-- 當前是英文頁面，點擊切換到中文 -->
-                                <a href="@Url.Action(actionName, "Home")">繁中</a>
-                            }
-                            else
-                            {
-                                <!-- 當 controllerName 為 null 或其他值時，提供預設鏈接 -->
-                                <a href="@Url.Action("Index", "EN")">EN</a>
-                            }
-                        </li>
+                        @if (actionName != "Video")
+                        {
+                            <li style="padding-right:0px;">
+                                @if (controllerName == "Home")
+                                {
+                                    <!-- 當前是中文頁面，點擊切換到英文 -->
+                                    <a href="@Url.Action(actionName, "EN")">EN</a>
+                                }
+                                else if (controllerName == "EN")
+                                {
+                                    <!-- 當前是英文頁面，點擊切換到中文 -->
+                                    <a href="@Url.Action(actionName, "Home")">繁中</a>
+                                }
+                                else
+                                {
+                                    <!-- 當 controllerName 為 null 或其他值時，提供預設鏈接 -->
+                                    <a href="@Url.Action("Index", "Home")">繁中</a>
+                                }
+                            </li>
+                        }
 
                     </ul>
                     <a class='menu-trigger'>
@@ -142,6 +147,7 @@
                             <ul class="mobile-sub-menu">
                                 <li><a href="@Url.Action("TxIntro", "EN")">Company overview</a></li>
                                 <li><a href="@Url.Action("CorpIntro", "EN")">About BIONET Group</a></li>
+                                <li><a href="@Url.Action("Video", "EN")">Video</a></li>
                             </ul>
                         </li>
                         <!--創新研發 -->
@@ -159,17 +165,17 @@
                             <a href="javascript:void(0)">Product Information</a>
                             <ul class="mobile-sub-menu">
                                 <!-- 第二層 - 外泌體 Exosome -->
-                                @* <li>
-                                    <a href="#">Meta exosome</a>
+                                <li>
+                                    <a href="#">Meta Exosome</a>
                                     <!-- 第三層 -->
                                     <ul class="mobile-sub-menu ">
-                                        <li><a href="#">ANIKINE-Clinical research data</a></li>
-                                        <li><a href="#">ANIKINE Series (B2C)</a></li>
-                                        <li><a href="#">ANIKINE Series (B2B)</a></li>
-                                        <li><a href="#">EXOVIA / ExoCake</a></li>
-                                        <li> <a href="#">Platelet-Rich Exosomes</a></li>
+                                        <li><a href="@Url.Action("Exocake", "EN")">EXOVIA / ExoCake</a></li>
+                                        <li> <a href="@Url.Action("Pre", "EN")">PRE (Platelet-Rich Exosome)</a></li>
+                                        <li><a href="@Url.Action("MetaExosomeB2C", "EN")">Meta Exosome Home Care Series</a></li>
+                                        <li><a href="@Url.Action("ClinicSeries", "EN")">ANIKINE Clinic Series</a></li>
+                                        <li><a href="@Url.Action("AnikineResearchData", "EN")">Exosome Clinical Data</a></li>
                                     </ul>
-                                </li> *@
+                                </li>
                                 <!-- 第二層 - 細胞製劑 -->
                                 <li><a href="@Url.Action("CellTherapy", "EN")">Cell Therapy Proucts</a></li>
                                 <!-- 第二層 - 細胞製劑 -->

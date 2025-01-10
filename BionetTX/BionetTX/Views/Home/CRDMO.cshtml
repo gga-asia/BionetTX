@@ -16,42 +16,44 @@
     ViewData["MetaOgDescription"] = "訊聯細胞智藥";
 }
 
+
+
 <section class="meetings-page" id="meetings">
-    <div class="container">
-        <div class="row">
+    <div class="container flex-column d-flex jusitfy-content-center">
 
-
-            <!--social media-->
-            <div class="col-lg-10">
-            </div>
-            <div class="col-lg-2">
-                <div class="row" style="margin-bottom:10px;">
-                    <div class="meeting-single-item">
-                        <a href="https://www.facebook.com/sharer.php?u＝https://www.bionettx.com/CRDMO"
-                           target="_blank"><img src="~/assets/images/fb.png" style="width:35px;"></a>&nbsp;
-                        <a href="https://social-plugins.line.me/lineit/share?url=https://www.bionettx.com/CRDMO"
-                           target="_blank"><img src="~/assets/images/line.png" style="width:35px;"></a>
-                    </div>
-                </div>
-            </div>
-            <!--social media-->
-
-
-
-            <div class="col-lg-1">
-            </div>
-            <div class="col-lg-10">
-                <div class="row">
-                    <div class="meeting-single-item">
-                        <div class="down-content" style="border-top-right-radius: 20px;border-top-left-radius: 20px;">
-                            <img src="~/assets/images/content/CRDMO-cn.svg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1">
+        <!--social media-->
+        <div class="row mb-3">
+            <div class="meeting-single-item  d-flex justify-content-end">
+                @*   修改-link *@
+                <a href="https://www.facebook.com/sharer.php?u＝https://www.bionettx.com/CRDMO"
+                   target="_blank"><img src="~/assets/images/fb.png" style="width:35px;"></a>&nbsp;
+                @*   修改-link *@
+                <a href="https://social-plugins.line.me/lineit/share?url=https://www.bionettx.com/CRDMO"
+                   target="_blank"><img src="~/assets/images/line.png" style="width:35px;"></a>
             </div>
         </div>
+
+        <!-- svg content-->
+        <div class="row">
+            <div class="meeting-single-item">
+                <div class="down-content" style="border-top-right-radius: 20px;border-top-left-radius: 20px;">
+                    @*   修改-頁面內容 *@
+                    <img src="~/assets/images/content/CRDMO-cn.svg">
+                </div>
+            </div>
+        </div>
+
+
+        @*   修改-若有按鈕才需調整 *@
+        @* <div class="row mt-2">
+
+            <a class="d-flex justify-content-center" href="#">
+
+                <div class="btn-buyNow">
+                    <img src="~/assets/images/content/btn-buyNow-cn.png">
+                </div>
+            </a>
+        </div> *@
     </div>
 
 </section>

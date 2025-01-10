@@ -5,6 +5,7 @@ html,body{
 body{
     background-color: #0C3849;
 }
+
 h1 {
     color: #ffffff;
 }
@@ -112,5 +113,26 @@ small{
 
     a {
         color: #0C384980;
+    }
+}
+
+/*按鈕buyNow*/
+.btn-buyNow{
+    width: 50%;
+    height:auto;
+
+    img{
+        width: 100%;
+    }
+}
+
+/*RWD 調整*/
+.container-fluid {
+    padding-right: var(--bs-gutter-x, 18rem);
+    padding-left: var(--bs-gutter-x, 18rem);
+
+    @media (max-width: 992px) {
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
     }
 }

@@ -1,3 +1,101 @@
+/* _content/BionetTX/Views/Shared/_anikineResearchData.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-3bwzbz2jxq] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-3bwzbz2jxq] {
+  color: #0077cc;
+}
+
+.btn-primary[b-3bwzbz2jxq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-3bwzbz2jxq], .nav-pills .show > .nav-link[b-3bwzbz2jxq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-3bwzbz2jxq] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-3bwzbz2jxq] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-3bwzbz2jxq] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-3bwzbz2jxq] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-3bwzbz2jxq] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_anikineResearchDataEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-4bd5eobhtp] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-4bd5eobhtp] {
+  color: #0077cc;
+}
+
+.btn-primary[b-4bd5eobhtp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-4bd5eobhtp], .nav-pills .show > .nav-link[b-4bd5eobhtp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-4bd5eobhtp] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-4bd5eobhtp] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-4bd5eobhtp] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-4bd5eobhtp] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-4bd5eobhtp] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
 /* _content/BionetTX/Views/Shared/_cellTherapy.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -90,6 +188,104 @@ button.accept-policy[b-a26494hoew] {
 }
 
 .footer[b-a26494hoew] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_clinicseries.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-u1wlt5o4y8] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-u1wlt5o4y8] {
+  color: #0077cc;
+}
+
+.btn-primary[b-u1wlt5o4y8] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-u1wlt5o4y8], .nav-pills .show > .nav-link[b-u1wlt5o4y8] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-u1wlt5o4y8] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-u1wlt5o4y8] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-u1wlt5o4y8] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-u1wlt5o4y8] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-u1wlt5o4y8] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_clinicseriesEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-fbrneq9ndj] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-fbrneq9ndj] {
+  color: #0077cc;
+}
+
+.btn-primary[b-fbrneq9ndj] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-fbrneq9ndj], .nav-pills .show > .nav-link[b-fbrneq9ndj] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-fbrneq9ndj] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-fbrneq9ndj] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-fbrneq9ndj] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-fbrneq9ndj] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-fbrneq9ndj] {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -531,6 +727,104 @@ button.accept-policy[b-6ayg7y7t7m] {
 }
 
 .footer[b-6ayg7y7t7m] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_exovia.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-fv400k4aro] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-fv400k4aro] {
+  color: #0077cc;
+}
+
+.btn-primary[b-fv400k4aro] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-fv400k4aro], .nav-pills .show > .nav-link[b-fv400k4aro] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-fv400k4aro] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-fv400k4aro] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-fv400k4aro] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-fv400k4aro] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-fv400k4aro] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_exoviaEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-37hlyj9jfg] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-37hlyj9jfg] {
+  color: #0077cc;
+}
+
+.btn-primary[b-37hlyj9jfg] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-37hlyj9jfg], .nav-pills .show > .nav-link[b-37hlyj9jfg] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-37hlyj9jfg] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-37hlyj9jfg] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-37hlyj9jfg] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-37hlyj9jfg] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-37hlyj9jfg] {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -1076,6 +1370,104 @@ button.accept-policy[b-7cb6jherk3] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/BionetTX/Views/Shared/_metaExosomeB2C.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-snpsgyon40] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-snpsgyon40] {
+  color: #0077cc;
+}
+
+.btn-primary[b-snpsgyon40] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-snpsgyon40], .nav-pills .show > .nav-link[b-snpsgyon40] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-snpsgyon40] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-snpsgyon40] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-snpsgyon40] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-snpsgyon40] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-snpsgyon40] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_metaExosomeB2CEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-9wbml8mhgy] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-9wbml8mhgy] {
+  color: #0077cc;
+}
+
+.btn-primary[b-9wbml8mhgy] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-9wbml8mhgy], .nav-pills .show > .nav-link[b-9wbml8mhgy] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-9wbml8mhgy] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-9wbml8mhgy] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-9wbml8mhgy] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-9wbml8mhgy] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-9wbml8mhgy] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
 /* _content/BionetTX/Views/Shared/_newsInfo.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -1370,6 +1762,104 @@ button.accept-policy[b-xawxysint2] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/BionetTX/Views/Shared/_pre.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-cpdsupigoi] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-cpdsupigoi] {
+  color: #0077cc;
+}
+
+.btn-primary[b-cpdsupigoi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-cpdsupigoi], .nav-pills .show > .nav-link[b-cpdsupigoi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-cpdsupigoi] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-cpdsupigoi] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-cpdsupigoi] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-cpdsupigoi] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-cpdsupigoi] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_preEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-wvdqusdqk5] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-wvdqusdqk5] {
+  color: #0077cc;
+}
+
+.btn-primary[b-wvdqusdqk5] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-wvdqusdqk5], .nav-pills .show > .nav-link[b-wvdqusdqk5] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-wvdqusdqk5] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-wvdqusdqk5] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-wvdqusdqk5] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-wvdqusdqk5] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-wvdqusdqk5] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
 /* _content/BionetTX/Views/Shared/_rawMaterial.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -1468,6 +1958,104 @@ button.accept-policy[b-tc1rbpimdf] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/BionetTX/Views/Shared/_sample.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-d5kkyi0xcp] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-d5kkyi0xcp] {
+  color: #0077cc;
+}
+
+.btn-primary[b-d5kkyi0xcp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-d5kkyi0xcp], .nav-pills .show > .nav-link[b-d5kkyi0xcp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-d5kkyi0xcp] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-d5kkyi0xcp] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-d5kkyi0xcp] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-d5kkyi0xcp] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-d5kkyi0xcp] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_sampleEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-bpijis6a9c] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-bpijis6a9c] {
+  color: #0077cc;
+}
+
+.btn-primary[b-bpijis6a9c] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-bpijis6a9c], .nav-pills .show > .nav-link[b-bpijis6a9c] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-bpijis6a9c] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-bpijis6a9c] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-bpijis6a9c] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-bpijis6a9c] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-bpijis6a9c] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
 /* _content/BionetTX/Views/Shared/_TXintro.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -1560,6 +2148,104 @@ button.accept-policy[b-27vb15xwrb] {
 }
 
 .footer[b-27vb15xwrb] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_video.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zrusje2gl0] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zrusje2gl0] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zrusje2gl0] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zrusje2gl0], .nav-pills .show > .nav-link[b-zrusje2gl0] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zrusje2gl0] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zrusje2gl0] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zrusje2gl0] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zrusje2gl0] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zrusje2gl0] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/BionetTX/Views/Shared/_videoEN.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-6uksxnj2rl] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-6uksxnj2rl] {
+  color: #0077cc;
+}
+
+.btn-primary[b-6uksxnj2rl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-6uksxnj2rl], .nav-pills .show > .nav-link[b-6uksxnj2rl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-6uksxnj2rl] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-6uksxnj2rl] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-6uksxnj2rl] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-6uksxnj2rl] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-6uksxnj2rl] {
   position: absolute;
   bottom: 0;
   width: 100%;

@@ -109,10 +109,36 @@ small {
   color: rgba(12, 56, 73, 0.5019607843);
 }
 
+/*按鈕buyNow*/
+.btn-buyNow {
+  width: 50%;
+  height: auto;
+}
+.btn-buyNow img {
+  width: 100%;
+}
+
+/*RWD 調整*/
+.container-fluid {
+  padding-right: var(--bs-gutter-x, 18rem);
+  padding-left: var(--bs-gutter-x, 18rem);
+}
+@media (max-width: 992px) {
+  .container-fluid {
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+  }
+}
+
 /*owl-carousel*/
 .owl-carousel .item {
   opacity: 0.85;
-  height: 280px;
+  height: 300px;
+}
+@media (max-width: 992px) {
+  .owl-carousel .item {
+    height: 300px;
+  }
 }
 
 .down-content > h4 {
@@ -165,12 +191,15 @@ small {
 }
 
 /*次世代外泌體 5 大特點, about us*/
-section.our-facts {
-  margin-top: 10rem;
+/*首頁影片區*/
+section.videoSection {
+  margin-top: 14rem;
+  background-color: black;
+  padding: 2rem 0;
 }
 @media (max-width: 992px) {
-  section.our-facts {
-    margin-top: 22rem;
+  section.videoSection {
+    margin-top: 26rem;
   }
 }
 
@@ -773,7 +802,7 @@ section.our-facts {
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
-  width: 250px;
+  width: 280px;
 }
 
 /*.our-facts div{

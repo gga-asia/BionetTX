@@ -1,4 +1,4 @@
-using BionetTX.Models;
+ï»¿using BionetTX.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -13,141 +13,189 @@ namespace BionetTX.Controllers
             _logger = logger;
         }
 
- 
-        #region ¤¤¤åª©-­º­¶
+        #region ä¸­æ–‡ç‰ˆ-ç¯„æœ¬
+        public IActionResult Sample()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-é¦–é 
         public IActionResult Index()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-³Ì·s®ø®§
+        #region ä¸­æ–‡ç‰ˆ-æœ€æ–°æ¶ˆæ¯
         public IActionResult News()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-°TÁp²Ó­M´¼ÃÄÂ²¤¶
+        #region ä¸­æ–‡ç‰ˆ-è¨Šè¯ç´°èƒæ™ºè—¥ç°¡ä»‹
         public IActionResult TxIntro()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-¶°¹ÎÂ²¤¶
+        #region ä¸­æ–‡ç‰ˆ-é›†åœ˜ç°¡ä»‹
         public IActionResult CorpIntro()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-²Ó­M»s¾¯
+        #region ä¸­æ–‡ç‰ˆ-ç´°èƒè£½åŠ‘
         public IActionResult CellTherapy()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-¥~ªcÅéExosome
+        #region ä¸­æ–‡ç‰ˆ-å¤–æ³Œé«”Exosome
         public IActionResult Exosome()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-²£«~¬ãµo¶iµ{
+        #region ä¸­æ–‡ç‰ˆ-ç”¢å“ç ”ç™¼é€²ç¨‹
         public IActionResult Pipeline()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-CRDMO
+        #region ä¸­æ–‡ç‰ˆ-CRDMO
         public IActionResult CRDMO()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-¥~ªcÅé¶}µo¬ã¨s Exosome R&D
+        #region ä¸­æ–‡ç‰ˆ-å¤–æ³Œé«”é–‹ç™¼ç ”ç©¶ Exosome R&D
         public IActionResult ExosomeRD()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-¥~ªcÅé­ì®Æ Raw Material
+        #region ä¸­æ–‡ç‰ˆ-å¤–æ³Œé«”åŸæ–™ Raw Material
         public IActionResult RawMaterial()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-Ápµ¸§Ú­Ì
+        #region ä¸­æ–‡ç‰ˆ-Meta Exosome å±…å®¶ä¿é¤Šç³»åˆ— Meta Exosome (B2C)
+        public IActionResult MetaExosomeB2C()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-ANIKINE è‡¨åºŠç ”ç©¶æ•¸æ“š Clinical research data
+        public IActionResult AnikineResearchData()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-EXOVIA /Â ExoCake
+        public IActionResult Exocake()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-PRE è‡ªé«”è¡€å°æ¿é«˜æ¿ƒåº¦å¤–æ³Œé«” 
+        public IActionResult Pre()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-ANIKINE é†«ç¾ä¿é¤Šç³»åˆ— 
+        public IActionResult ClinicSeries()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-å½±éŸ³å°ˆå€ Video
+        public IActionResult Video()
+        {
+            return View();
+        }
+        #endregion
+
+        #region ä¸­æ–‡ç‰ˆ-è¯çµ¡æˆ‘å€‘
         public IActionResult Contact()
         {
             return View();
         }
         #endregion        
         
-        #region ¤¤¤åª©-­Ó¸ê«Å§i
+        #region ä¸­æ–‡ç‰ˆ-å€‹è³‡å®£å‘Š
         public IActionResult Disclaimer()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-15
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-15
         public IActionResult NewsList15()
         {
             return View();
         }
         #endregion        
         
-        #region ¤¤¤åª©-·s»D®ø®§-1
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-1
         public IActionResult NewsList1()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-2
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-2
         public IActionResult NewsList2()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-3
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-3
         public IActionResult NewsList3()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-4
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-4
         public IActionResult NewsList4()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-5
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-5
         public IActionResult NewsList5()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-6
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-6
         public IActionResult NewsList6()
         {
             return View();
         }
         #endregion
 
-        #region ¤¤¤åª©-·s»D®ø®§-7
+        #region ä¸­æ–‡ç‰ˆ-æ–°èæ¶ˆæ¯-7
         public IActionResult NewsList7()
         {
             return View();

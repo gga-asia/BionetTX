@@ -44,8 +44,9 @@
                             <li class="has-sub">
                                 <a href="javascript:void(0)">關於訊聯細胞智藥</a>
                                 <ul class="sub-menu">
-                                <li><a href="@Url.Action("TxIntro", "Home")">細胞智藥簡介</a></li>
-                                <li><a href="@Url.Action("CorpIntro", "Home")">訊聯集團優勢</a></li>
+                                    <li><a href="@Url.Action("TxIntro", "Home")">細胞智藥簡介</a></li>
+                                    <li><a href="@Url.Action("CorpIntro", "Home")">訊聯集團優勢</a></li>
+                                    <li><a href="@Url.Action("Video", "Home")">影音專區</a></li>
                                 </ul>
                             </li>
                         <!--創新研發 -->
@@ -63,21 +64,22 @@
                                 <a href="javascript:void(0)">產品服務</a>
                                 <ul class="sub-menu">
                                     <!-- 第二層 - 外泌體 Exosome -->
-                @*                     <li class="has-sub">
+                                    <li class="has-sub">
                                     <a href="javascript:void(0)" class="third-item">次世代外泌體</a>
                                         <!-- 第三層 -->
                                         <ul class="sub-menu third-menu">
-                                            <li><a href="#">ANIKINE 臨床研究數據</a></li>
-                                            <li><a href="#">ANIKINE 居家保養系列</a></li>
-                                            <li><a href="#">ANIKINE 醫美保養系列</a></li>
-                                            <li><a href="#">EXOVIA / ExoCake</a></li>
-                                            <li><a href="#">自體血小板高濃度外泌體</a></li>
-                                             <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
+                                            <li><a href="@Url.Action("Exocake", "Home")">EXOVIA / ExoCake</a></li>
+                                             <li><a href="@Url.Action("Pre", "Home")">PRE 自體血小板高濃度外泌體 </a></li>
+                                             <li><a href="@Url.Action("MetaExosomeB2C", "Home")">Meta Exosome 居家保養系列</a></li>
+                                            <li><a href="@Url.Action("ClinicSeries", "Home")">ANIKINE 醫美保養系列</a></li>
+                                            <li><a href="@Url.Action("AnikineResearchData", "Home")">外泌體臨床研究數據</a></li>
+                                            <!-- 第二層 - 細胞製劑 -->
+                                            <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li>
                                              <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                                         </ul>
-                                    </li> *@
+                                    </li>
                                     <!-- 第二層 - 細胞製劑 -->
-                                    <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li><!-- 第二層 - 細胞製劑 -->
+                                    <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li>
                                     <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                                 </ul>
                             </li>
@@ -101,23 +103,27 @@
                             var actionName = actionNameObj != null ? actionNameObj.ToString() : "Index";
                         }
 
-                        <li style="padding-right:0px;">
-                            @if (controllerName == "Home")
-                            {
-                                <!-- 當前是中文頁面，點擊切換到英文 -->
-                                <a href="@Url.Action(actionName, "EN")">EN</a>
-                            }
-                            else if (controllerName == "EN")
-                            {
-                                <!-- 當前是英文頁面，點擊切換到中文 -->
-                                <a href="@Url.Action(actionName, "Home")">繁中</a>
-                            }
-                            else
-                            {
-                                <!-- 當 controllerName 為 null 或其他值時，提供預設鏈接 -->
-                                <a href="@Url.Action("Index", "Home")">繁中</a>
-                            }
-                        </li>
+
+                        @if (actionName != "Video")
+                        {
+                            <li style="padding-right:0px;">
+                                @if (controllerName == "Home")
+                                {
+                                    <!-- 當前是中文頁面，點擊切換到英文 -->
+                                    <a href="@Url.Action(actionName, "EN")">EN</a>
+                                }
+                                else if (controllerName == "EN")
+                                {
+                                    <!-- 當前是英文頁面，點擊切換到中文 -->
+                                    <a href="@Url.Action(actionName, "Home")">繁中</a>
+                                }
+                                else
+                                {
+                                    <!-- 當 controllerName 為 null 或其他值時，提供預設鏈接 -->
+                                    <a href="@Url.Action("Index", "Home")">繁中</a>
+                                }
+                            </li>
+                        }
 
                         </ul>
                         <a class='menu-trigger'>
@@ -145,6 +151,7 @@
                             <ul class="mobile-sub-menu">
                                 <li><a href="@Url.Action("TxIntro", "Home")">細胞智藥簡介</a></li>
                                 <li><a href="@Url.Action("CorpIntro", "Home")">訊聯集團優勢</a></li>
+                                <li><a href="@Url.Action("Video", "Home")">影音專區</a></li>
                             </ul>
                         </li>
                         <li>
@@ -159,16 +166,17 @@
                         <li>
                            <a href="#">產品服務</a>
                             <ul class="mobile-sub-menu">
-                                @* <li>
+                                <li>
                                     <a href="#">次世代外泌體</a>
                                     <ul class="mobile-sub-menu">
-                                        <li><a href="#">ANIKINE 臨床研究數據</a></li>
-                                        <li><a href="#"> ANIKINE 居家保養系列</a></li>
-                                        <li><a href="#">ANIKINE 醫美保養系列</a></li>
-                                        <li><a href="#">EXOVIA / ExoCake</a></li>
-                                        <li><a href="#">自體血小板高濃度外泌體 </a></li>
+                                        <li><a href="@Url.Action("Exocake", "Home")">EXOVIA / ExoCake</a></li>
+                                        <li><a href="@Url.Action("Pre", "Home")">PRE 自體血小板高濃度外泌體 </a></li>
+                                        <li><a href="@Url.Action("MetaExosomeB2C", "Home")">Meta Exosome 居家保養系列</a></li>
+                                        <li><a href="@Url.Action("ClinicSeries", "Home")">ANIKINE 醫美保養系列</a></li>
+                                        <li><a href="@Url.Action("AnikineResearchData", "Home")">外泌體臨床研究數據</a></li>
+                                        
                                     </ul>
-                                </li> *@
+                                </li>
                                 <li><a href="@Url.Action("CellTherapy", "Home")">細胞製劑</a></li>
                                 <li><a href="@Url.Action("CRDMO", "Home")">CRDMO代工服務</a></li>
                             </ul>
