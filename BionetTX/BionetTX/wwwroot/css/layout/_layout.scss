@@ -131,6 +131,11 @@ small{
     padding-right: var(--bs-gutter-x, 18rem);
     padding-left: var(--bs-gutter-x, 18rem);
 
+    @media (max-width: 1280px) {
+        padding-right: var(--bs-gutter-x, 10rem);
+        padding-left: var(--bs-gutter-x, 10rem);
+    }
+
     @media (max-width: 992px) {
         padding-right: var(--bs-gutter-x, 0.75rem);
         padding-left: var(--bs-gutter-x, 0.75rem);

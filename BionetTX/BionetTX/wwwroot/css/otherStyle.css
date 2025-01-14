@@ -123,6 +123,12 @@ small {
   padding-right: var(--bs-gutter-x, 18rem);
   padding-left: var(--bs-gutter-x, 18rem);
 }
+@media (max-width: 1280px) {
+  .container-fluid {
+    padding-right: var(--bs-gutter-x, 10rem);
+    padding-left: var(--bs-gutter-x, 10rem);
+  }
+}
 @media (max-width: 992px) {
   .container-fluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -364,272 +370,6 @@ section.videoSection {
   top: 0px;
 }
 
-/*測試3-手機版-20241017上版*/
-/*.mobile-main-nav{
-    display:none;
-}
-@media (max-width: 767px) {
-    .main-nav {
-        display: none;
-    }
-    .mobile-main-nav {
-        display: block;
-    }
-    .header-area.header-sticky .nav {
-        margin-top: 100px !important;
-    }
-
-    .header-area .main-nav .nav {
-        float: none;
-        width: 100%;
-        display: none;
-        -webkit-transition: all 0s ease 0s;
-        -moz-transition: all 0s ease 0s;
-        -o-transition: all 0s ease 0s;
-        transition: all 0s ease 0s;
-        margin-left: 0px;
-    }
-    //第一個 li 邊框設置
-    .header-area .main-nav .nav li:first-child {
-        border-top: 1px solid #eee;
-    }
-    //每個 li 的寬度和背景設置
-    .header-area .main-nav .nav li {
-        width: 100%;
-        background: #fff;
-        border-bottom: 1px solid #eee;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    //li a 樣式：高度、顏色、背景色設置
-    .header-area .main-nav .nav li a {
-        height: 50px !important;
-        line-height: 50px !important;
-        padding: 0px !important;
-        border: none !important;
-        background: #f7f7f7 !important;
-        color: #EC6D34 !important;
-    }
-    //懸停時改變背景和文字顏色
-    .header-area .main-nav .nav li a:hover {
-        background: #eee !important;
-        color: #EC6D34 !important;
-    }
-    //子選單（第二層）樣式
-    .header-area .main-nav .nav li.has-sub ul.sub-menu {
-        position: relative;
-        visibility: inherit;
-        opacity: 1;
-        z-index: 1;
-        transform: translateY(0%);
-        top: 0px;
-        width: 100%;
-        box-shadow: none;
-        height: 0px;
-        transition: all 0s;
-    }
-    //子選單（第二層）內部連結樣式
-    .header-area .main-nav .nav li.submenu ul li a {
-        font-size: 12px;
-        font-weight: 400;
-    }
-    //懸停時，子選單內部連結的 before 樣式
-    .header-area .main-nav .nav li.submenu ul li a:hover:before {
-        width: 0px;
-    }
-    //has-sub 的箭頭樣式調整
-    .header-area .main-nav .nav li.has-sub:after {
-        color: #3B566E;
-        right: 30px;
-        font-size: 14px;
-        top: 15px;
-    }
-    //第三層
-    .third-item:after {
-        display: none;
-    }
-}*/
-/*測試4-手機版*/
-/*.mobile-main-nav {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .main-nav {
-        display: none;
-    }
-
-    .mobile-main-nav {
-        display: block;
-    }
-
-   // test start
-
-
-}
-
-.mobile-main-nav ul, ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.mobile-main-nav a {
-    text-decoration: none;
-    line-height: 2em;
-    font-size: 1.2em;
-    color: #333;
-}
-
-.mobile-main-nav {
-    overflow: auto;
-}*/
-/*第一層選單*/
-/*.mobile-main-nav > ul > li {
-    padding-left: 15px;
-    line-height: 3.3em;
-    border-bottom: solid 1px #333;
-}*/
-/*第二層選單*/
-/*.mobile-main-nav > ul > li > ul > li {
-    padding-left: 15px;
-    border-bottom: solid 1px #333;
-}
-
-.mobile-main-nav > ul > li > ul > li:first-child {
-    border-top: solid 1px #333;
-}
-
-.mobile-main-nav > ul > li > ul > li:last-child {
-    border: 0;
-}*/
-/*第三層選單*/
-/*.mobile-main-nav > ul > li > ul > li > ul > li {
-    padding-left: 15px;
-    border-bottom: solid 1px #333;
-}
-
-.mobile-main-nav > ul > li > ul > li > ul > li:first-child {
-    border-top: solid 1px #333;
-}
-
-.mobile-main-nav > ul > li > ul > li > ul > li:last-child {
-    border: 0;
-}
-
-.mobile-main-nav .menu-plus {
-    display: block;
-    background: #333;
-    color: #fff !important;
-    padding: 2px 15px;
-    margin-top: 5px;
-    border-radius: 30px;
-    float: right;
-}
-
-// logo 調整
-.mobile-main-nav .logo {
-    float:left;
-    > img {
-        width: 30vw;
-    }
-}
-// logo 調整 end
-
-// triggle*/
-/* 保證 menu-trigger 按鈕在 logo 右方並顯示三條橫線 */
-/*.mobile-main-nav {
-    position: relative;
-}
-
-.menu-trigger {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    top: 40px;*/ /* 調整與 logo 的距離 */
-/*right: 20px;
-    width: 30px;
-    height: 24px;
-}
-
-.menu-trigger span,
-.menu-trigger span:before,
-.menu-trigger span:after {
-    display: block;
-    position: absolute;
-
-    height: 3px;
-    background-color: #1e1e1e;
-    transition: all 0.4s;
-}
-
-.menu-trigger span {
-    width: 100%;
-}
-
-
-.menu-trigger span:before,
-.menu-trigger span:after {
-    width: 75%;
-}
-
-    .menu-trigger span {
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .menu-trigger span:before {
-        content: '';
-        top: -8px;
-    }
-
-    .menu-trigger span:after {
-        content: '';
-        top: 8px;
-    }*/
-/* 點擊時變成交叉符號 */
-/*.menu-trigger.active span {
-    background-color: transparent;
-}
-
-.menu-trigger.active span:before {
-    transform: translateY(8px) rotate(45deg);
-}
-
-.menu-trigger.active span:after {
-    transform: translateY(-8px) rotate(-45deg);
-}*/
-/* 調整 menu-trigger 的顯示方式在小屏幕下 */
-/*@media (max-width: 767px) {
-    .menu-trigger {
-        display: block !important;
-    }
-}
-// triggle end
-
-@media (min-width: 768px) {
-    #nav-btn, .mobile-sub-menu {
-        display: none;
-    }
-
-    .mobile-main-nav > .mobile-nav {
-        display: block !important;
-    }*/
-/*第一層選單*/
-/*.mobile-main-nav > ul > li {
-        float: left;
-        margin-left: 15px;
-        padding-left: 15px;
-        line-height: 3.3em;
-        border-bottom: solid 1px #333;
-    }
-}
-
-@media (max-width: 768px) {
-    .mobile-main-nav > ul, .mobile-sub-menu {
-        display: none;
-    }
-}*/
 .mobile-main-nav {
   display: none;
   position: relative;
@@ -850,9 +590,6 @@ section.our-facts .imgwrap img {
   font-weight: 600;
 }
 
-/*.right-col{
-    margin-top:3rem;
-}*/
 /* Basic Styles */
 .cus-block {
   padding: 20px;
@@ -888,24 +625,6 @@ section.our-facts .imgwrap img {
     flex: 1 1 calc(33.33% - 10px); /* Adjusted for larger screens */
   }
 }
-/*.grid:not(.loaded) {
-    opacity: 0;
-}
-
-.grid.loaded {
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
-*/
-/*測試*/
-/*.grid {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.grid.loaded {
-    opacity: 1;
-}*/
 section.apply-now .item {
   background-color: rgba(39, 71, 89, 0.9);
   border-radius: 20px 20px;
@@ -954,4 +673,13 @@ section.apply-now .item {
   .photo {
     width: 100%;
   }
+}
+
+/*頁面banner*/
+section.heading-page {
+  padding-bottom: 55px;
+}
+
+section.heading-page h2 {
+  font-size: 30px;
 }

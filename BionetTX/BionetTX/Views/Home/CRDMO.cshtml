@@ -4,11 +4,9 @@
 @{
     Layout = "~/Views/Shared/_crdmo.cshtml";
 }
+
 @{
     ViewData["Title"] = "CRDMO代工服務";
-}
-@{
-    ViewData["Title"] = "訊聯細胞智藥-再生醫療製劑、細胞製劑、外泌體Exosome(訊聯生技集團)";
     ViewData["MetaTitle"] = "訊聯細胞智藥-再生醫療製劑、細胞製劑、次世代外泌體Exosome、Exosome Foundry外泌體全球研發代工(訊聯生技集團)";
     ViewData["MetaDescription"] = "訊聯細胞智藥股份有限公司為訊聯集團旗下訊聯生技、訊聯基因數位2家公司，整合3大核心能力「再生醫學/細胞治療」、「精準健康/基因醫學」、「數位科技/智慧研發」的新引擎，主攻再生醫療製劑、細胞製劑、智慧研發、智慧健康、外泌體Exosome、基因及細胞治療等先進療法，滿足全球更廣大的健康需求。目前7款細胞治療製劑開發中：急性呼吸窘迫症候群ARDS、肺部纖維化、慢性腎衰竭、急性傷口修復、慢性傷口癒合、退化性關節炎、乾眼症";
     ViewData["MetaKeywords"] = "訊聯生技集團, 訊聯,細胞智藥,細胞製劑,再生醫療製劑,外泌體,Exosome,急性呼吸窘迫症候群,ARDS,肺部纖維化,慢性腎衰竭,急性傷口修復,慢性傷口癒合,糖尿病足潰瘍,退化性關節炎,乾眼症,CDMO";
@@ -18,10 +16,11 @@
 
 
 
-<section class="meetings-page" id="meetings">
-    <div class="container flex-column d-flex jusitfy-content-center">
 
-        <!--social media-->
+<section class="meetings-page" id="meetings">
+    <div class="container-fluid d-flex flex-column justify-content-center">
+        <!-- Social Media -->
+
         <div class="row mb-3">
             <div class="meeting-single-item  d-flex justify-content-end">
                 @*   修改-link *@
@@ -33,27 +32,27 @@
             </div>
         </div>
 
-        <!-- svg content-->
+        <!-- SVG Content -->
         <div class="row">
             <div class="meeting-single-item">
                 <div class="down-content" style="border-top-right-radius: 20px;border-top-left-radius: 20px;">
-                    @*   修改-頁面內容 *@
-                    <img src="~/assets/images/content/CRDMO-cn.svg">
+                    @* 修改 SVG *@
+                    <img src="~/assets/images/content/CRDMO-cn.svg" alt="Page Content">
+
+                    <!-- Optional Button -->
+                    <!-- Uncomment if needed -->
+                    @*  <div class="row mt-3">
+                    <a class="d-flex justify-content-center" href="#">
+                    <div class="btn-buyNow">
+                    <img src="~/assets/images/content/btn-buyNow-cn.png" alt="Buy Now">
+                    </div>
+                    </a>
+                    </div> *@
+                    <!-- Optional Button -->
                 </div>
             </div>
         </div>
 
 
-        @*   修改-若有按鈕才需調整 *@
-        @* <div class="row mt-2">
-
-            <a class="d-flex justify-content-center" href="#">
-
-                <div class="btn-buyNow">
-                    <img src="~/assets/images/content/btn-buyNow-cn.png">
-                </div>
-            </a>
-        </div> *@
     </div>
-
 </section>
