@@ -17,10 +17,7 @@
 
 <section class="meetings-page" id="meetings">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-12">
+
                         @*  grid *@
                         <div class="row    grid " id="photos__container">
 
@@ -47,16 +44,13 @@
 
 
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 </section>
 
 @* <script src="~/EN/~/assets/js/isotope.js"></script> *@
-<script>
+@* <script>
     const gap = 10; // 每张照片的间隙
     const photosContainer = document.getElementById('photos__container');
     const photos = document.getElementsByClassName('photo');
@@ -94,10 +88,44 @@
         cascadeDisplay();
     };
 
+</script> *@
 
+<script>
+    const horizontalGap = 20; // 橫向間距
+    const verticalGap = 10;   // 縱向間距
+    const photosContainer = document.getElementById('photos__container');
+    const photos = document.getElementsByClassName('photo');
 
+    function cascadeDisplay() {
+        const photosContainerWidth = photosContainer.offsetWidth;
+        const photoWidth = photos[0].offsetWidth;
+        const columnsCount = Math.floor(photosContainerWidth / (photoWidth + horizontalGap)); // 計算列數
+        const columnHeights = Array(columnsCount).fill(0); // 初始化每列高度
 
+        for (let i = 0; i < photos.length; i++) {
+            // 找到當前高度最小的列
+            const minHeight = Math.min(...columnHeights);
+            const columnIndex = columnHeights.indexOf(minHeight);
 
+            // 設定當前照片的位置
+            photos[i].style.top = minHeight + 'px';
+            photos[i].style.left = columnIndex * (photoWidth + horizontalGap) + 'px';
 
+            // 更新該列高度（加上當前照片高度與縱向間距）
+            columnHeights[columnIndex] += photos[i].offsetHeight + verticalGap;
+        }
 
+        // 設置容器高度為最高列的高度
+        photosContainer.style.height = Math.max(...columnHeights) + 'px';
+    }
+
+    // 頁面加載時初始化布局
+    window.onload = function () {
+        cascadeDisplay();
+    };
+
+    // 窗口大小變化時重新布局
+    window.onresize = function () {
+        cascadeDisplay();
+    };
 </script>
