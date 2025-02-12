@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BionetTX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37906a89657048029cc17d1fe170cf1dd6509b24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46906a282da141b3e32ffc525f590ee36e452ac4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BionetTX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BionetTX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

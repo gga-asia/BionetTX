@@ -4,8 +4,10 @@ using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.Hosting;
+using BionetTX.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 // 增加MVC服務, 預設的
@@ -26,10 +28,14 @@ builder.Services.AddHttpClient<IMailService, MailService>(client =>
     client.BaseAddress = new Uri("https://wpa.bionetcorp.com:9004");
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 });
-
-
+// 將 appsettings.json 加入配置 , Configuration 是內建配置
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                                        .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
 
 var app = builder.Build();
+
+// 註冊middleware
+app.UseMiddleware<GA4Middlewares>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -41,92 +47,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
 
-//測試  Redirect可用
-//Middleware for domain-based routing
-//app.Use(async (context, next) =>
-//{
-//    // Check if the request is coming from port 7292
-//    if (context.Request.Host.Port == 7292)
-//    {
-//        // Map to exosomefoundry-specific route
-//        if (context.Request.Path == "/")
-//        {
-//            context.Response.Redirect("/ExosomeFoundry/Index", permanent: false);
-//        }
-//    }
-//    else if (context.Request.Host.Port == 7291)
-//    {
-//        // This is the default setup for biotx.com; no path modification needed unless there’s a specific landing route
-//        if (context.Request.Path == "/")
-//        {
-
-//            context.Request.Path = "/Home/Index"; // Update if there's a specific controller/action for biotx.com
-//        }
-//    }
-
-//    await next();
-//});
-
-
-// 測試 ok
-//app.Use(async (context, next) =>
-//{
-//    var host = context.Request.Host; // 輸出類似：localhost:7292
-//    var hostName = context.Request.Host.Host; // 僅取得網域名稱 輸出：localhost
-//    var port = context.Request.Host.Port; // 取得埠號 輸出：7292
-
-//    var exosomeDomain = builder.Configuration["DomainRouting:ExosomeDomain"];
-//    var biotxDomain = builder.Configuration["DomainRouting:BioTxDomain"];
-//    // Check if the request is coming from port 7292
-//    if (port == 7292 || port == 8088)
-//    {
-//        // Map to exosomefoundry-specific route
-//        if (context.Request.Path == "/")
-//        {
-//            context.Response.Redirect("/ExosomeFoundry/Index", permanent: false);
-//        }
-//    }
-//    else if (port == 7291 || port == 8087)
-//    {
-//        // This is the default setup for biotx.com; no path modification needed unless there’s a specific landing route
-//        if (context.Request.Path == "/")
-//        {
-//            context.Request.Path = "/Home/Index"; // Update if there's a specific controller/action for biotx.com
-//        }
-//    }
-
-//    // 判斷特定網域名稱
-//    if (context.Request.Host.Host.ToString() == "https://www.exosomefoundry.com")
-//    {
-//        if (context.Request.Path == "/")
-//        {
-//            // Redirect to ExosomeFoundry/Index for exosomefoundry.com
-//            context.Response.Redirect("/ExosomeFoundry/Index", permanent: false);
-//            return;
-//        }
-//    }
-//    else if (context.Request.Host.Host.ToString() == "https://bionettx.com")
-//    {
-//        if (context.Request.Path == "/")
-//        {
-//            // Redirect to Home/Index for biotx.com
-//            context.Response.Redirect("/Home/Index", permanent: false);
-//            return;
-//        }
-//    }
-
-
-//    await next();
-//    //Console.WriteLine("host:", host);
-//    //Console.WriteLine("exosomeDomain:", exosomeDomain);
-//    //Console.WriteLine("biotxDomain:", biotxDomain);
-//});
-
-
+// Redirects
 app.Use(async (context, next) =>
 {
     // 獲取獲取協議、主機名稱、埠號

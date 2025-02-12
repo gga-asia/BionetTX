@@ -1,7 +1,13 @@
-﻿  <!-- Google Tag Manager (noscript) -->
-@* <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFKGCL6G"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript> *@
+﻿@{
+    var ga4Enabled = Context.Items["GA4Enabled"] as bool?;
+}
 
 <!-- End Google Tag Manager -->
+@if (ga4Enabled == true)
+{
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFKGCL6G"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+}
