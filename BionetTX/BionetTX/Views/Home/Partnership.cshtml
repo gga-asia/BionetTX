@@ -1,0 +1,169 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // 中文版
+    // 修改-頁面layout
+    Layout = "~/Views/Shared/_partnership.cshtml";
+}
+
+@{
+    ViewData["Title"] = "認證診所";
+    ViewData["MetaTitle"] = "訊聯細胞智藥-再生醫療製劑、細胞製劑、外泌體Exosome(訊聯生技集團)";
+    ViewData["MetaDescription"] = "訊聯細胞智藥股份有限公司為訊聯集團旗下訊聯生技、訊聯基因數位2家公司，整合3大核心能力「再生醫學/細胞治療」、「精準健康/基因醫學」、「數位科技/智慧研發」的新引擎，主攻再生醫療製劑、細胞製劑、智慧研發、智慧健康、外泌體Exosome、基因及細胞治療等先進療法，滿足全球更廣大的健康需求。目前7款細胞治療製劑開發中：急性呼吸窘迫症候群ARDS、肺部纖維化、慢性腎衰竭、急性傷口修復、慢性傷口癒合、退化性關節炎、乾眼症";
+    ViewData["MetaKeywords"] = "訊聯生技集團, 訊聯,細胞智藥,細胞製劑,再生醫療製劑,外泌體,Exosome,急性呼吸窘迫症候群,ARDS,肺部纖維化,慢性腎衰竭,急性傷口修復,慢性傷口癒合,糖尿病足潰瘍,退化性關節炎,乾眼症,CDMO";
+    ViewData["MetaOgTitle"] = "訊聯細胞智藥";
+    ViewData["MetaOgDescription"] = "訊聯細胞智藥";
+}
+
+
+
+<script src="~/js/Vue/vue.js"></script>
+<section class="meetings-page" id="meetings">
+    <div class="container-fluid d-flex flex-column justify-content-center">
+        <!-- Social Media -->
+
+        <div class="row mb-3">
+            <div class="meeting-single-item  d-flex justify-content-end">
+                @*   修改-link *@
+                <a href="https://www.facebook.com/sharer.php?u＝https://www.bionettx.com/Partnership"
+                   target="_blank"><img src="~/assets/images/fb.png" style="width:35px;"></a>&nbsp;
+                @*   修改-link *@
+                <a href="https://social-plugins.line.me/lineit/share?url=https://www.bionettx.com/Partnership"
+                   target="_blank"><img src="~/assets/images/line.png" style="width:35px;"></a>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="row">
+            <div class="select-wrapper my-3">
+                <div class="row g-3">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <select class="form-select " aria-label="選擇一個區域">
+                            <option value="all" selected>全部</option>
+                            <option v-for="option in selectOptions" :value="option.value">{{ option.text }}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <select class="form-select " aria-label="選擇一個縣市">
+                            <option value="" disabled>請選擇縣市</option>
+                            <option v-for="option in cityOptions" :value="option.value">{{ option.text }}</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-wrapper">
+                <div class="row g-3">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<script src="~/vendor/jquery/jquery.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.nav-link').on('click', function (e) {
+            e.preventDefault();
+
+            // 移除其他標籤的 active 狀態
+            $('.nav-link').removeClass('active');
+            $('.tab-pane').removeClass('show active');
+
+            // 取得目標標籤頁 ID
+            const targetId = $(this).attr('href');
+
+            // 設定當前點擊的標籤為 active
+            $(this).addClass('active');
+            $(targetId).addClass('show active');
+        });
+    });
+</script>
+@* Vue *@
+<script>
+    var app = new Vue({
+        el: '#meetings',
+        // 綁定模板id
+        // 單引號跟雙引號都是字串
+        data: {
+            selectOptions:[
+                { value: "north", text: "北區" },
+                { value: "central", text: "中區" },
+                { value: "south", text: "南區" },
+            ],
+            cityOptions: [
+                { value: "north", text: "北區" },
+            ],
+
+        },
+        // Vue 實體與掛載完成,可以開始設定初始
+        // 畫面開啟時的預載,或從資料庫拿資料到頁面放
+        mounted() {
+
+        },
+        // 綁定 vue 方法
+        // f12 在 source 看
+        methods: {
+
+        }
+
+    })
+</script>

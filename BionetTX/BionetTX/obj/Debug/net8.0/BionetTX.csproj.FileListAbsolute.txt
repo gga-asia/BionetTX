@@ -169,3 +169,4 @@ D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_preEN.cshtml.rz.scp.css
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_clinicseries.cshtml.rz.scp.css
 D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_clinicseriesEN.cshtml.rz.scp.css
+D:\GitHub\BionetTX_own\BionetTX\BionetTX\obj\Debug\net8.0\scopedcss\Views\Shared\_partnership.cshtml.rz.scp.css

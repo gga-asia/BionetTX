@@ -214,6 +214,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzTGlzdDcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitHub/BionetTX_own/BionetTX/BionetTX/Views/Home/Partnership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0bmVyc2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/BionetTX_own/BionetTX/BionetTX/Views/Home/Pipeline.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaXBlbGluZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -397,6 +401,10 @@ build_metadata.AdditionalFiles.CssScope = b-3sb20axh7x
 [D:/GitHub/BionetTX_own/BionetTX/BionetTX/Views/Shared/_newsLayoutEN.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uZXdzTGF5b3V0RU4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-00ef37cpd5
+
+[D:/GitHub/BionetTX_own/BionetTX/BionetTX/Views/Shared/_partnership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wYXJ0bmVyc2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-7ly2lsynjz
 
 [D:/GitHub/BionetTX_own/BionetTX/BionetTX/Views/Shared/_pipeline.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9waXBlbGluZS5jc2h0bWw=

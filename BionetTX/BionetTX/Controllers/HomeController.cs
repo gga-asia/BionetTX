@@ -125,6 +125,13 @@ namespace BionetTX.Controllers
         }
         #endregion
 
+        #region 中文版-合作院所地圖 
+        public IActionResult Partnership()
+        {
+            return View();
+        }
+        #endregion
+
         #region 中文版-影音專區 Video
         public IActionResult Video()
         {

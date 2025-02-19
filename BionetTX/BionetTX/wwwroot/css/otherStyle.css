@@ -683,3 +683,36 @@ section.heading-page {
 section.heading-page h2 {
   font-size: 30px;
 }
+
+@media (max-width: 1200px) {
+  .header-area.header-sticky {
+    min-height: 180px;
+  }
+}
+@media (max-width: 990px) {
+  .header-area.header-sticky {
+    min-height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .header-area.header-sticky {
+    min-height: 80px;
+  }
+}
+
+.meetings-page .nav-link {
+  color: #fff;
+}
+
+/*.block-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+
+    @media (max-width: 992px) {
+        width: 90vw;
+    }
+
+    @media (max-width: 500px) {
+        width: 95vw;
+    }
+}*/

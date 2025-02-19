@@ -555,5 +555,17 @@ section.heading-page h2 {
     font-size: 30px;
 }
 
+.header-area.header-sticky {
+    @media (max-width:1200px) {
+        min-height: 180px;
+    }
 
+    @media (max-width: 990px) {
+        min-height: 200px;
+    }
+
+    @media (max-width: 767px) {
+        min-height: 80px;
+    }
+}
 

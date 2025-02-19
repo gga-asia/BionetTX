@@ -1357,6 +1357,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\news-list30.svg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list31.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\news-list31.jpg"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\news-list4-details.html",
       "PackagePath": "staticwebassets\\assets\\images\\news-list4-details.html"
     },
@@ -1593,6 +1597,18 @@
       "PackagePath": "staticwebassets\\assets\\images\\video\\video-10.jpg"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-11.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-12.png"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-13.png"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\assets\\images\\video\\video-2-en.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\video-2-en.jpg"
     },
@@ -1681,8 +1697,16 @@
       "PackagePath": "staticwebassets\\css\\partial\\_index.scss"
     },
     {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\css\\partial\\_partnership.scss",
+      "PackagePath": "staticwebassets\\css\\partial\\_partnership.scss"
+    },
+    {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\Bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\Bootstrap\\bootstrap.bundle.min.js"
     },
     {
       "Id": "D:\\GitHub\\BionetTX_own\\BionetTX\\BionetTX\\wwwroot\\js\\Vue\\vue.js",
